@@ -1,0 +1,3546 @@
+{
+    "nodes":[
+        {
+            "direction": "hands? (SE)", 
+            "vection": "medium", 
+            "embodiment": "low", 
+            "description": "Each controller has a shadowy colored hand. Looking at objects through the different hands reveals their \"past\" or \"future\" states and objects can be temporally moved by holding them and looking at them through the desired hand.", 
+            "figure": "", 
+            "similarity": "Telepath,Spycam Teleport", 
+            "energy": "low", 
+            "accessibility": "low", 
+            "group": "addon", 
+            "hardware": "hand tracking", 
+            "number": 1, 
+            "year": 2015.0, 
+            "id": "Left Hand Right Hand", 
+            "largeVE": "none", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "character", 
+            "vection": "low", 
+            "embodiment": "low", 
+            "description": "Moving the joystick locks the viewpoint and detaches the user's avatar which can be moved around to perform actions. The 3rd view avatar can move away from the user. At the press of a button the user is teleported to where the avatar is.", 
+            "figure": "", 
+            "similarity": "Teleport,Astral Body,Third Person", 
+            "energy": "medium", 
+            "accessibility": "medium", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 2, 
+            "year": 2019.0, 
+            "id": "Third Person + Teleport", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "None", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "move", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "Architectural elements like doors or passages that connect two locations. The player and any object that crossess them moves from one location to the other. Some implementation allow to see the other side of the portal and they are used as redering methods.", 
+            "figure": "https://unseendiplomacy2.com/2019/04/portal-rendering-part-1-a-brief-history-of-portals/", 
+            "similarity": "Impossible Portals,Omnidirectional Elevator,Minimap Jump,Projected Portal,Teleport Presets,Redirected Teleportation", 
+            "energy": "none", 
+            "accessibility": "high", 
+            "group": "teleportation", 
+            "hardware": "none", 
+            "number": 3, 
+            "year": 1995.0, 
+            "id": "Architectural Portals", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "None", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Forward movement by swinging arms while pressing a button", 
+            "figure": "", 
+            "similarity": "Climbing,Hand Walking,Flapping,Rowing,Paddling", 
+            "energy": "gym", 
+            "accessibility": "low", 
+            "group": "movement", 
+            "hardware": "controllers", 
+            "number": 4, 
+            "year": 2016.0, 
+            "id": "Arm Swinger", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "None?", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "character", 
+            "vection": "low", 
+            "embodiment": "low", 
+            "description": "The user (or the experience) make the viewpoint change from first person to to third person. First person allows interaction with the environment. Third person allows avatar locomotion.", 
+            "figure": "", 
+            "similarity": "Third Person + Teleport,Third Person,Flying Vehicle", 
+            "energy": "medium", 
+            "accessibility": "high", 
+            "group": "controller", 
+            "hardware": "joypad", 
+            "number": 5, 
+            "year": 2017.0, 
+            "id": "Astral Body", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "None", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "location", 
+            "vection": "medium", 
+            "embodiment": "high", 
+            "description": "move center of pressure on the board to move in that direction. Some boards use springs or the like and tilt with your center of gravity, some are isometric and simply detect your center of gravity without moving perceptibly. Although I haven't yet found a source earlier than 2015, the more complicated 3D Rudder was out for testing in early January so there must have been usable balance boards for VR earlier. The Wii Balance Board, a balance board for 2d, was released as early as 2007", 
+            "figure": "", 
+            "similarity": "Hoverboard,3D Rudder,Lean to Move,Joyman,FlexPerch,LazyNav", 
+            "energy": "medium", 
+            "accessibility": "high", 
+            "group": "vehicle, relative position", 
+            "hardware": "resistance board with some measurement of displacement/pressure", 
+            "number": 6, 
+            "year": 2015.0, 
+            "id": "VibroSkate", 
+            "largeVE": "high", 
+            "posture": "standing", 
+            "multitask": "high", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "medium", 
+            "embodiment": "high", 
+            "description": "Bob HMD to move forward after bouncing or pressing a button. Return to static after movement stops", 
+            "figure": "", 
+            "similarity": "HMD Acceleration,Head Tilt", 
+            "energy": "high", 
+            "accessibility": "no? / high? (SE)", 
+            "group": "movement", 
+            "hardware": "none", 
+            "number": 7, 
+            "year": 2010.0, 
+            "id": "Bobbing-Walking", 
+            "largeVE": "medium", 
+            "posture": "any? (SE)", 
+            "multitask": "None? (HS) Low? (SE)", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "vr space? / gaze? (SE)", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The longer you hold the jump button, the higher you will rise in the VR space.", 
+            "figure": "", 
+            "similarity": "EVA Thrusters,Flying", 
+            "energy": "low", 
+            "accessibility": "high", 
+            "group": "controller", 
+            "hardware": "button", 
+            "number": 8, 
+            "year": 2017.0, 
+            "id": "Charge Float Jump", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "Minimal", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "The user moves of a pre-determined distance in the looking direction by pressing a button", 
+            "figure": "", 
+            "similarity": "Teleport,Unconstrained Teleport,Fading,Volume Blink", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "button", 
+            "number": 9, 
+            "year": 2015.0, 
+            "id": "Cinematic Blink", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "some", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "vr space", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Players climb up walls, mounts and other objects by swinging their hands and pulling triggers to grab. Releasing the hands makes the player fall.", 
+            "figure": "", 
+            "similarity": "Hand Walking,Walking Stick,Arm Swinger,Swimming,Rowing,Paddling", 
+            "energy": "gym", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "controllers", 
+            "number": 10, 
+            "year": 1995.0, 
+            "id": "Climbing", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "none? (SE)", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "Player moves in the direction of joystic in discreet steps, similar to miniature teleportations. Objects prevent steps to happen. Large falls can be prevented by constraining movement direction or not allowing the jump.", 
+            "figure": "", 
+            "similarity": "Dashing,Short Teleport,Dashing Joystick,Dash Pointing,Snap Turn", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "gamepad", 
+            "number": 11, 
+            "year": 2015.0, 
+            "id": "Cloudstep", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "minimal? (SE)", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "using a stationary bicycle Pedaling and brakes control front/back motion. Handlebars control direction on the ground plane", 
+            "figure": "", 
+            "similarity": "Bicycle", 
+            "energy": "gym", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "Stationary bike modified to detect pedal movement, possibly breaks and handle orientation", 
+            "number": 12, 
+            "year": 1996.0, 
+            "id": "Cycling", 
+            "largeVE": "high", 
+            "posture": "seated", 
+            "multitask": "medium", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Cloudstep,Short Teleport,Dashing Joystick,Dash Pointing,Snap Turn", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 13, 
+            "year": "", 
+            "id": "Dashing", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The user interacts with props that resemble the controls of a vehicle and the movement resembles the physical motion of the vehicle", 
+            "figure": "", 
+            "similarity": "Room-scale Vehicle,Vehicle VR,Flying Carpet", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "wheel", 
+            "number": 14, 
+            "year": 1960.0, 
+            "id": "Driving", 
+            "largeVE": "high", 
+            "posture": "seated", 
+            "multitask": "none", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "?", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "I can't imagine anything to enter a building that's not either a simple doorway you go through with your alternative locomotion, or is simply a subcategory of Architectural Portal tagging: ???", 
+            "figure": "", 
+            "similarity": "Architectural Portals", 
+            "energy": "?", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "?", 
+            "number": 15, 
+            "year": "", 
+            "id": "Entering Building", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "?"
+        }, 
+        {
+            "direction": "various", 
+            "vection": "low? (SE)", 
+            "embodiment": "low? (SE)", 
+            "description": "When performing movement on the ground plane using the controller, the player sees a box surrounding them with only a small floating window through it showing the play area and following the gaze with a delay . The box can be made disappear by pressing a button.", 
+            "figure": "https://youtu.be/iFSMdfVvsl8?t=27", 
+            "similarity": "Room-scale Vehicle,Holosphere", 
+            "energy": "high", 
+            "accessibility": "yes", 
+            "group": "addon", 
+            "hardware": "none? / controller? (SE)", 
+            "number": 16, 
+            "year": 2017.0, 
+            "id": "Espire Control Theater", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "minimal? (SE)", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "medium", 
+            "embodiment": "medium", 
+            "description": "Simulation of EVA space suit through thrusters. Altough 6dof control is possible, this scheme usually provides 4dof control based on acceleration using two joystick controls (moving the stick generates acceleration on the corresponding dof). Control based on position rather than on acceleration could be implemented, some implementations include a control that stabilizes rotation.", 
+            "figure": "", 
+            "similarity": "Charge Float Jump,Sliding,Joystick", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "joypad", 
+            "number": 17, 
+            "year": "", 
+            "id": "EVA Thrusters", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "fixed", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "The current scene or point of view fades out and a new one fades in", 
+            "figure": "", 
+            "similarity": "Cinematic Blink,Teleport,Unconstrained Teleport,Volume Blink", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "", 
+            "number": 18, 
+            "year": "", 
+            "id": "Fading", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Wiggling fingers over one hand moves the player forward", 
+            "figure": "", 
+            "similarity": "Hand Posture", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "gesture", 
+            "hardware": "hand tracking", 
+            "number": 19, 
+            "year": 2020.0, 
+            "id": "Finger Run", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "?"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "high? (SE)", 
+            "embodiment": "high? (SE)", 
+            "description": "Flapping hands to go higher, while player continuosuly moves forwards. Could also be done without controllers with hand-tracking cameras and direction of movement can be modified from \"forward\" to gaze with ease for better presence and manueverability.", 
+            "figure": "", 
+            "similarity": "Arm Swinger,Swimming", 
+            "energy": "gym", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "controllers", 
+            "number": 20, 
+            "year": "", 
+            "id": "Flapping", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "medium", 
+            "embodiment": "medium", 
+            "description": "Fly through the air with gaze as directional input or press one button to fly higher and another to go lower.", 
+            "figure": "", 
+            "similarity": "Charge Float Jump,Turning + Rotating,Sliding Looking", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "buttons", 
+            "number": 21, 
+            "year": "", 
+            "id": "Flying", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "location", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "forward speed can be controlled by button, speed circle, or walking in place, direction is controlled by position of hand controllers or joystick.", 
+            "figure": "", 
+            "similarity": "Joystick,Hand Rockets,Skier,Driving", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "some", 
+            "number": 22, 
+            "year": 2018.0, 
+            "id": "Flying Carpet", 
+            "largeVE": "high", 
+            "posture": "standing", 
+            "multitask": "low", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "pull", 
+            "vection": "high", 
+            "embodiment": "low? (SE)", 
+            "description": "To move small distances, Grip and drag the environment. To move large distances, place 2 focal points on the ground with the controllers then rotate, scale, and translate the world. Similar to Move and Scale but here the user can move only on the ground plane and points to the ground rather than grabbing air", 
+            "figure": "", 
+            "similarity": "Scale the World", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "controllers", 
+            "number": 23, 
+            "year": 2016.0, 
+            "id": "Focal Point VR", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "walking", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "hybrid with various standing and room-scale locomotion methods. combines bobbin, arm swing and climbing", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "hybrid", 
+            "hardware": "controllers", 
+            "number": 24, 
+            "year": 2017.0, 
+            "id": "Freedom Locomotion ", 
+            "largeVE": "", 
+            "posture": "standing", 
+            "multitask": "low", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "inertia", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "grab environment push from it to locomote in 3D in the desired direction. Inertia allows to continue moving until new grab, or bouncing on objects", 
+            "figure": "", 
+            "similarity": "Hand Walking", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "controllers", 
+            "number": 25, 
+            "year": "", 
+            "id": "Grab + No Gravity", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "medium", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "inertia", 
+            "vection": "medium", 
+            "embodiment": "medium", 
+            "description": "project a hook in the pointing direction to attach to parts of the environment, the rope allows swinging to move to a different location, some implementation have a blink teleportation to decrease nausea", 
+            "figure": "", 
+            "similarity": "Teleport Throw,Teleport,Head Bowling", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "controller", 
+            "number": 26, 
+            "year": "", 
+            "id": "Grappling Hook", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "minimal", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Redirected Walking,Redirected Teleportation", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 27, 
+            "year": "", 
+            "id": "Hallway", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "low", 
+            "embodiment": "high", 
+            "description": "open hand to go forward, close it to go backward", 
+            "figure": "  ", 
+            "similarity": "Finger Run", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "gesture", 
+            "hardware": "hand tracking", 
+            "number": 28, 
+            "year": 2019.0, 
+            "id": "Hand Posture", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "Minimal", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "medium", 
+            "embodiment": "medium", 
+            "description": "propels in the direction opposite to the direction where the controller is pointed. Simulate two rockets at the end of the arms. Similar to EVA, but here the rockets can be oriented", 
+            "figure": "", 
+            "similarity": "Skier,Flying Carpet", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "controllers", 
+            "number": 29, 
+            "year": "", 
+            "id": "Hand Rockets", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "Minimal", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "hands", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "use controllers as feet to move on the floor, can have visual extensions to increase speed. Can jump by pushing off the environment.", 
+            "figure": "Lucid Trips Introduction Video\r\n", 
+            "similarity": "Climbing,Swimming,Walking Stick,Teleport Walk,Arm Swinger", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "controllers", 
+            "number": 30, 
+            "year": "", 
+            "id": "Hand Walking", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "High", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Initiating movement by looking in the direction you want to go. You tilt your head forward, you move forward. Tilt your head backwards, and you go backwards.", 
+            "figure": "", 
+            "similarity": "Bobbing-Walking,Head Tilt", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "relative position", 
+            "hardware": "none", 
+            "number": 31, 
+            "year": "", 
+            "id": "HMD Acceleration", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "High", 
+            "nausea": "?"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "low? (SE)", 
+            "embodiment": "medium", 
+            "description": "A  sphere appears around the view point while moving, blurring the environment. ", 
+            "figure": "", 
+            "similarity": "Espire Control Theater,Tunneling", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "roomscale", 
+            "hardware": "controller", 
+            "number": 32, 
+            "year": "", 
+            "id": "Holosphere", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "minimal", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "location", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "The user stands on a board suspended from the ceiling and is strapped into the same ropes the board hangs from. The user can safely tilt the board and more importantly their body while suspended to accelerate the in-game board based on the degree of tilt. Sense of vection and presence may depend strongly on how realistic it seems for the 'in-game' movement method to respond so subtly to your incline and sickness as well as presence depend heavily on sensor accuracy.", 
+            "figure": "", 
+            "similarity": "VibroSkate,3D Rudder,FlexPerch,Lean to Move,LazyNav", 
+            "energy": "high", 
+            "accessibility": "yes", 
+            "group": "vehicle, relative position", 
+            "hardware": "simple board, phone, hoverboard\r\n, or ceiling mount w/ ropes.", 
+            "number": 33, 
+            "year": 2017.0, 
+            "id": "Hoverboard", 
+            "largeVE": "high", 
+            "posture": "Standing (Suspended)", 
+            "multitask": "High", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "preset", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "Fixed in place game elements that immediately move the player to a different locations. Some implementation allow to see the other side of the portal. They are used to allow loading and changing parts of the map.", 
+            "figure": "https://unseendiplomacy2.com/2019/04/portal-rendering-part-1-a-brief-history-of-portals/", 
+            "similarity": "Architectural Portals,Projected Portal,Teleport Presets,Minimap Jump,Omnidirectional Elevator", 
+            "energy": "none", 
+            "accessibility": "yes", 
+            "group": "teleportation", 
+            "hardware": "none", 
+            "number": 34, 
+            "year": "", 
+            "id": "Impossible Portals", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "pointing? (SE)", 
+            "vection": "medium", 
+            "embodiment": "high", 
+            "description": "The only real difference from the balance board is that the board can rotate freely. This aspect can likely only be properly used when sitting, although theoretically one could stand with outside support. I believe that the primary purpose of the rotation is to rotate the perspective, but then it's a little unclear how headset rotation affects that. I'm assuming they're simply added together and the board rotate's one's \"foot position\" and the headset changes one's torso and head rotation to affect the viewpoint? Possibly should be merged with balance board, but the difference in posture and newfound turning ability may be worthy of distinction.", 
+            "figure": "", 
+            "similarity": "VibroSkate,Hoverboard,FlexPerch", 
+            "energy": "low", 
+            "accessibility": "medium", 
+            "group": "relative position", 
+            "hardware": "3D Rudder", 
+            "number": 35, 
+            "year": 2015.0, 
+            "id": "3D Rudder", 
+            "largeVE": "medium", 
+            "posture": "sitting? (SE)", 
+            "multitask": "high", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "location", 
+            "vection": "medium", 
+            "embodiment": "high", 
+            "description": "based on the metaphor of a human-scale joystick, the user leans in the direction and with an angle that specify direction and speed.", 
+            "figure": "", 
+            "similarity": "VibroSkate,Lean to Move,LazyNav,Ninja Run VR", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "relative position", 
+            "hardware": "joy", 
+            "number": 36, 
+            "year": 2011.0, 
+            "id": "Joyman", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The viewpoint changes smoothly and with high velocity on the ground, making a step in the viewing direction", 
+            "figure": "", 
+            "similarity": "Sliding,Sliding Joystick,Dashing Joystick,EVA Thrusters,3D Mouse", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "button", 
+            "number": 37, 
+            "year": "", 
+            "id": "Joystick", 
+            "largeVE": "low", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "fixed", 
+            "vection": "low", 
+            "embodiment": "low", 
+            "description": "Pull up an ingame minimap with controllers and select a location on the map to teleport there. There may likely be predetermined locations on the map one can teleport to and you need simply select one.", 
+            "figure": "", 
+            "similarity": "Teleport,Projected Portal,Architectural Portals,Impossible Portals", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 38, 
+            "year": "", 
+            "id": "Minimap Jump", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "movement forward proportional to height of jump", 
+            "figure": "", 
+            "similarity": "Walk in Place", 
+            "energy": "gym", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "none", 
+            "number": 39, 
+            "year": "", 
+            "id": "Jump VR", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "minimal", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "medium", 
+            "embodiment": "medium", 
+            "description": "Press a trigger on controller to record your origin, lean beyond the boundary threshold to move in game, return to origin to stop. Effectively joyman with moment to moment calibration and an on/off button", 
+            "figure": "", 
+            "similarity": "Joyman,LazyNav,VibroSkate,3D Rudder", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "relative position", 
+            "hardware": "controllers", 
+            "number": 40, 
+            "year": "", 
+            "id": "Lean to Move", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "medium", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Core experiences focused around local area and allow free movement, but experience authored to limit desire to move out of immediate space. movement through larger areas involves fading to black for example, but generally involves non-agency in transition. Arguably, this isn't actually locomotion, but i appreciated it for it's design skirting entirely around the problem (i have a whole diatribe about this related to wii and the wiimotes and WarioWare if you're interested)", 
+            "figure": "", 
+            "similarity": "Room Scale", 
+            "energy": "?", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "?", 
+            "number": 41, 
+            "year": "", 
+            "id": "Local Area", 
+            "largeVE": "low*? (SE)", 
+            "posture": "any", 
+            "multitask": "high", 
+            "nausea": "?"
+        }, 
+        {
+            "direction": "hands", 
+            "vection": "high", 
+            "embodiment": "low", 
+            "description": "move around the world by grabbing it with one hand, shrink and turn it with two hands. Similar to Focal Point but allows also to move vertically.", 
+            "figure": "", 
+            "similarity": "Focal Point VR", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "controllers", 
+            "number": 42, 
+            "year": "", 
+            "id": "Scale the World", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "medium", 
+            "embodiment": "high? (SE)", 
+            "description": "Stretch both arms in the opposite direction of your desired movement while lean in the same direction of desired movement", 
+            "figure": "", 
+            "similarity": "Joyman,Lean to Move,Superman Flight,Ninja Run VR", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "relative position", 
+            "hardware": "controllers", 
+            "number": 43, 
+            "year": "", 
+            "id": "Ninja Run VR", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "none", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "The user enters in a box that occludes the surroundings and when they enter they arrive to their destination", 
+            "figure": "", 
+            "similarity": "Teleport Presets,Architectural Portals,Impossible Portals,Barrels", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "controller?", 
+            "number": 44, 
+            "year": "", 
+            "id": "Omnidirectional Elevator", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "fixed", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "the location and/or orientation of the viewpoint changes according to a pre-determined sequence, could include a vehicle, the user doesn't have control", 
+            "figure": "", 
+            "similarity": "Running on Rails", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "none", 
+            "number": 45, 
+            "year": "", 
+            "id": "Passive Move", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Run PocketStrafe app on the smartphone, place the smartphone in your pocket, run in place to move.", 
+            "figure": "", 
+            "similarity": "RIPMotion,Walk in Place", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "phone", 
+            "number": 46, 
+            "year": "", 
+            "id": "PocketStrafe", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "medium", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "marker", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The player has the ability to project or attach two portals on world surfaces and move between them when crossing one. The player is able to perform other movements using other methods (e.g. 1:1, teleportation, slide)", 
+            "figure": "", 
+            "similarity": "Teleport,Minimap Jump,Architectural Portals,Impossible Portals,Teleport Presets", 
+            "energy": "none", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controllers", 
+            "number": 47, 
+            "year": "", 
+            "id": "Projected Portal", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "combination VR and real", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Design the game in a way to allow the player to move in circles in the play area. Players will never hit physical walls of the play area.", 
+            "figure": "", 
+            "similarity": "Hallway,Redirected Teleportation,Barrels", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "roomscale", 
+            "hardware": "none", 
+            "number": 48, 
+            "year": 2016.0, 
+            "id": "Redirected Walking", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "high", 
+            "nausea": "low? / medium? (SE)"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Put hands at your hips, press a button on each controller and run in place to move", 
+            "figure": "", 
+            "similarity": "PocketStrafe,Walk in Place", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "controllers", 
+            "number": 49, 
+            "year": "", 
+            "id": "RIPMotion", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "low", 
+            "embodiment": "high", 
+            "description": "Entire play space becomes the inside of the vehicle, operate the controls in the vehicle to move the vehicle", 
+            "figure": "", 
+            "similarity": "Vehicle VR,Driving,Espire Control Theater", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "some", 
+            "number": 50, 
+            "year": "", 
+            "id": "Room-scale Vehicle", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "walking", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "move around the room in real physical space, limited by the room size, VR movement is mapped 1:1 with real movement", 
+            "figure": "", 
+            "similarity": "Local Area", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "roomscale", 
+            "hardware": "tracking", 
+            "number": 51, 
+            "year": "", 
+            "id": "Room Scale", 
+            "largeVE": "low", 
+            "posture": "standing", 
+            "multitask": "high", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "fixed", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "Predetermined movement of the user's perspective. The user has no control over the position of their reference frame but can control where they look.", 
+            "figure": "", 
+            "similarity": "Passive Move", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "none", 
+            "number": 52, 
+            "year": "", 
+            "id": "Running on Rails", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "location", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "Moving the controllers below the waist and then backwards causes the user to propel forward.", 
+            "figure": "", 
+            "similarity": "Hand Rockets,Flying Carpet,Ninja Run VR", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "controllers", 
+            "number": 54, 
+            "year": "", 
+            "id": "Skier", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "none", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Joystick,EVA Thrusters,Sliding Looking,Sliding Pointing,Sliding Joystick,Haptic Feedback", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 55, 
+            "year": "", 
+            "id": "Sliding", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "walking", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "When the player is about to hit a wall in real life, the character in VR instantly turns 180 degrees (face backwards). It forces the player to turn around in real life in order to move forward again.", 
+            "figure": "", 
+            "similarity": "Cosmic Wandering,World Rotator", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "roomscale", 
+            "hardware": "none", 
+            "number": 56, 
+            "year": "", 
+            "id": "Snap N'Motion", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "high", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "instantaneour clockwise/counterclockwise rotation steps by pressing button or moving joystick on the side", 
+            "figure": "", 
+            "similarity": "Cloudstep,Dashing,Volume Blink", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "gamepad", 
+            "number": 57, 
+            "year": "", 
+            "id": "Snap Turn", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "location", 
+            "vection": "low", 
+            "embodiment": "high? (SE)", 
+            "description": "move hands forward to advance straight, move one hand more in front to go in that direction, move hands up to elevate", 
+            "figure": "", 
+            "similarity": "Ninja Run VR", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "relative position", 
+            "hardware": "hand tracking", 
+            "number": 58, 
+            "year": "", 
+            "id": "Superman Flight", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "?"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "Hold the triggers and stroke or peddle.", 
+            "figure": "", 
+            "similarity": "Hand Walking,Climbing,Flapping,Rowing,Paddling", 
+            "energy": "gym", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "controllers", 
+            "number": 59, 
+            "year": "", 
+            "id": "Swimming", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "fixed", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "draw path on the floor and either travel in steps through arm swinging or smoothly", 
+            "figure": "", 
+            "similarity": "Left Hand Right Hand", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "controller", 
+            "number": 60, 
+            "year": "", 
+            "id": "Telepath", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "?"
+        }, 
+        {
+            "direction": "preset", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "\r\nThe user points to one of few possible locations and by pressing a button instantaneously moves there", 
+            "figure": "", 
+            "similarity": "Architectural Portals,Impossible Portals,Teleport,Omnidirectional Elevator,Projected Portal", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 61, 
+            "year": "", 
+            "id": "Teleport Presets", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "marker", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Aim in the direction you want to go (may need to press a button to activate), see a marker on the ground, press/release a button to instantaneously move to the location. Could see an \u201cX\u201d meaning the location is not reachable.", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 62, 
+            "year": "", 
+            "id": "Teleport", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "marker", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "the user selects the position and direction to teleport to", 
+            "figure": "", 
+            "similarity": "Teleport", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 63, 
+            "year": "", 
+            "id": "Teleport Reorient", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "In combat-based experiences, sucessive teleportations are paused for a period", 
+            "figure": "", 
+            "similarity": "Teleport,Short Teleport", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 64, 
+            "year": "", 
+            "id": "Teleport Cooldown", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "marker", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The user throws an object or shoots an arrow to move instantaneously to the location where the object or arrow land", 
+            "figure": "", 
+            "similarity": "Teleport,Grappling Hook,Head Bowling", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 65, 
+            "year": "", 
+            "id": "Teleport Throw", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "The user points in the intended direction and clicks oa button with one of the hand moving the user towards that direction. There are slight rotation towards the side of the hand that presses the button, forcing the user to alternate the pressing hand, thus simulating walking in place", 
+            "figure": "", 
+            "similarity": "Hand Walking,Teleport", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controllers", 
+            "number": 66, 
+            "year": "", 
+            "id": "Teleport Walk", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "none? (SE)", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "none", 
+            "embodiment": "medium", 
+            "description": "The user moves of a short, pre-determined distance in the pointing direction by pressing a button.", 
+            "figure": "", 
+            "similarity": "Teleport,Teleport Cooldown", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 67, 
+            "year": "", 
+            "id": "Short Teleport", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "none? (SE)", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "marker", 
+            "vection": "none", 
+            "embodiment": "medium? (SE)", 
+            "description": "user has a glimpse from the new position before teleporting there.", 
+            "figure": "", 
+            "similarity": "Teleport,Left Hand Right Hand", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 68, 
+            "year": "", 
+            "id": "Spycam Teleport", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none? (SE)", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "character", 
+            "vection": "medium", 
+            "embodiment": "low", 
+            "description": "Player's POV trails behind their character, works for third-person games with gamepads", 
+            "figure": "", 
+            "similarity": "Third Person + Teleport,Flying Vehicle,Astral Body", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "gamepad", 
+            "number": 69, 
+            "year": "", 
+            "id": "Third Person", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "high", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "stick", 
+            "vection": "low? (SE)", 
+            "embodiment": "medium", 
+            "description": "push stick and orient controller to move at constant speed with combined direction between the two. The direction is stick relative to controller relative to environment, so largely the direction the stick is being pushed in the real world.", 
+            "figure": "", 
+            "similarity": "Skier,Hand Rockets", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "controller", 
+            "number": 70, 
+            "year": "", 
+            "id": "Treading", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "low", 
+            "embodiment": "medium? (SE)", 
+            "description": "The user moves around with constant speed and the view of the scene is shrinked as a function of speed and duration of motion, leaving the periphery black or rendering a simple  scene (google vr)", 
+            "figure": "", 
+            "similarity": "Holosphere", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "addon", 
+            "hardware": "button", 
+            "number": 71, 
+            "year": "", 
+            "id": "Tunneling", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "none? (SE)", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "Fixed", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "Press right bumper to fly up and press left bumper to fly down. Press and hold for smooth flight, or press and release for incremental movement.", 
+            "figure": "", 
+            "similarity": "Flying", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "controller", 
+            "number": 72, 
+            "year": "", 
+            "id": "Turning + Rotating", 
+            "largeVE": "low", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "various", 
+            "vection": "low", 
+            "embodiment": "low", 
+            "description": "interaction happens witin a 2D screen", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "addon", 
+            "hardware": "some", 
+            "number": 73, 
+            "year": "", 
+            "id": "TV Screen", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "high", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "pointing", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "The user points at the ground seeing a marker indicating the location and when pressing a button the user moves there instantaneously", 
+            "figure": "", 
+            "similarity": "Cinematic Blink,Fading,Teleport", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "", 
+            "number": 74, 
+            "year": "", 
+            "id": "Unconstrained Teleport", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "Have a cockpit around the player ", 
+            "figure": "", 
+            "similarity": "Room-scale Vehicle,Driving,Barrels", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "some", 
+            "number": 75, 
+            "year": "", 
+            "id": "Vehicle VR", 
+            "largeVE": "high", 
+            "posture": "seated", 
+            "multitask": "none", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "Good for flying vehicle presence", 
+            "figure": "", 
+            "similarity": "Third Person,Astral Body", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "vehicle", 
+            "hardware": "some", 
+            "number": 76, 
+            "year": "", 
+            "id": "Flying Vehicle", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "none", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "head", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": " digitizing tablet: x and y motion yielded rotation about y and x respectively, and a circular stirring motion yielded rotation about z ", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "medium", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "digitizer, tablet", 
+            "number": 77, 
+            "year": 1981.0, 
+            "id": "Virtual Turntable", 
+            "largeVE": "medium", 
+            "posture": "", 
+            "multitask": "low", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "adds rotation. Is this the snap blink controller method where at the press of a button or joystick it snaps a set degree turn for the fov?", 
+            "figure": "", 
+            "similarity": "Cinematic Blink,Teleport,Fading,Snap Turn", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "teleportation", 
+            "hardware": "controller", 
+            "number": 78, 
+            "year": "", 
+            "id": "Volume Blink", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "body", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "uses movable or slippery surfaces to allow kinematic movement in place,  movements might not be limited to front/back, feet travel while in contact is mapped to vR movement", 
+            "figure": "", 
+            "similarity": "Treadport,Treadmill,Omnidirectional Treadmill,Walk in Place", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "slip surface", 
+            "number": 79, 
+            "year": 2013.0, 
+            "id": "Slippery Ground", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "high", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "make step while physically not moving the body, each step makes the player advance or recede of a fixed amount", 
+            "figure": "", 
+            "similarity": "PocketStrafe,RIPMotion,Slippery Ground", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "controller", 
+            "number": 80, 
+            "year": 2008.0, 
+            "id": "Walk in Place", 
+            "largeVE": "medium", 
+            "posture": "standing", 
+            "multitask": "medium", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "gaze", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "After reaching edge of playable space', virtual world is blurred and grid appears. Virtual world shifts to encompass open play area, forcing player to turn and face it. At this point the virtual world comes back into focus and grid disappears.", 
+            "figure": "", 
+            "similarity": "Snap N'Motion,World Rotator", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "roomscale", 
+            "hardware": "none", 
+            "number": 81, 
+            "year": 2016.0, 
+            "id": "Cosmic Wandering", 
+            "largeVE": "medium", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "walking", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "walking to the edge of the play area causes time to freeze and locks the world to the player's rotation. A HUD appears and shows the amount of open space in front of the player.", 
+            "figure": "", 
+            "similarity": "Snap N'Motion,Cosmic Wandering", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "roomscale", 
+            "hardware": "none", 
+            "number": 82, 
+            "year": "", 
+            "id": "World Rotator", 
+            "largeVE": "medium", 
+            "posture": "walking", 
+            "multitask": "low", 
+            "nausea": "low"
+        }, 
+        {
+            "direction": "", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "amplify movements along the horizontal plane to increase the users\u2019 walking speed", 
+            "figure": "", 
+            "similarity": "NaviFields,Ground-Level Scaling,Eye-Level Scaling", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "trackers", 
+            "number": 83, 
+            "year": "", 
+            "id": "Seven League Boots", 
+            "largeVE": "medium", 
+            "posture": "walking", 
+            "multitask": "low", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Ground-Level Scaling,Seven League Boots", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "trackers", 
+            "number": 84, 
+            "year": "", 
+            "id": "Eye-Level Scaling", 
+            "largeVE": "medium", 
+            "posture": "walking", 
+            "multitask": "low", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "high", 
+            "embodiment": "medium", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Eye-Level Scaling,Seven League Boots", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "trackers", 
+            "number": 85, 
+            "year": "", 
+            "id": "Ground-Level Scaling", 
+            "largeVE": "medium", 
+            "posture": "walking", 
+            "multitask": "low", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "medium", 
+            "embodiment": "medium", 
+            "description": "sers\u2019 head displacement is scaled according to their position in the VE. If the user is in an interactive area requiring fine control the viewpoint will follow the real motion of the head, but while travelling across connecting spaces motion has progressively larger gains.", 
+            "figure": "", 
+            "similarity": "Seven League Boots,Ground-Level Scaling,Eye-Level Scaling", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 86, 
+            "year": "", 
+            "id": "NaviFields", 
+            "largeVE": "medium", 
+            "posture": "", 
+            "multitask": "high", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Front/back motion is controlled by a device that allows walking \r\nordinarily used for physical fitness. Can include a steering interface to \r\ncontrol direction on the ground plane.", 
+            "figure": "", 
+            "similarity": "Omnidirectional Treadmill,Treadport,Slippery Ground,Walk in Place", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "treadmill", 
+            "number": 87, 
+            "year": "", 
+            "id": "Treadmill", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "A mechanism allows to phisically bring the users back to the center of a workspace while they freely walk around in any direction.", 
+            "figure": "", 
+            "similarity": "Treadmill,Treadport,Walk in Place,Slippery Ground", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "treadmill", 
+            "number": 88, 
+            "year": 1997.0, 
+            "id": "Omnidirectional Treadmill", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Cycling", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 89, 
+            "year": "", 
+            "id": "Bicycle", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "a treadmill is combined with a \r\nlarge manipulator to provide inertial forces to the walker", 
+            "figure": "", 
+            "similarity": "Treadmill,Omnidirectional Treadmill,Slippery Ground,Walk in Place", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "treadmill", 
+            "number": 90, 
+            "year": "", 
+            "id": "Treadport", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Front/back movement is controlled throught the pedals of an unycicle-like device, direction on the ground plane is controlled by twisting the waist", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "pedal device", 
+            "number": 91, 
+            "year": 1994.0, 
+            "id": "Pedaling", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Forward motion is controlled by alternately moving the feet on a device that is \r\nordinarily used for physical fitness. Steering on the ground plane can be achieved with a joistick or twisting the ancles", 
+            "figure": "", 
+            "similarity": "Walk in Place", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "foot platform, stepper", 
+            "number": 92, 
+            "year": 1995.0, 
+            "id": "Stepper", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "lower body support that provides user with leg moving ability while sitting and allows fly", 
+            "figure": "", 
+            "similarity": "3D Rudder,VibroSkate,Hoverboard", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 93, 
+            "year": 2019.0, 
+            "id": "FlexPerch", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Uses a device on a desk that can be grabbed and pulled/twisted with 6dof. Movement in VR changes as a function of the pull force and torque", 
+            "figure": "", 
+            "similarity": "Joystick", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "", 
+            "number": 94, 
+            "year": "", 
+            "id": "3D Mouse", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "simulate barrels over an obstacle course to combine walking backward on a barrel with walking forwards on stationary objects ", 
+            "figure": "", 
+            "similarity": "Vehicle VR,Redirected Walking", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 95, 
+            "year": 2020.0, 
+            "id": "Barrels", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "simulates boat oars that can be grabbed and rotated to propel the boat when in water", 
+            "figure": "", 
+            "similarity": "Paddling,Swimming,Arm Swinger,Climbing,Hand Walking", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "controllers", 
+            "number": 96, 
+            "year": "", 
+            "id": "Rowing", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "vehicle", 
+            "vection": "high", 
+            "embodiment": "high", 
+            "description": "simulates kayack where either one paddle passes through the controller or two small paddles are attached to a cotroller. The user propels the kayack by moving the paddle(s) in water", 
+            "figure": "", 
+            "similarity": "Rowing,Swimming,Arm Swinger,Climbing,Hand Walking", 
+            "energy": "high", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "controllers", 
+            "number": 97, 
+            "year": 2019.0, 
+            "id": "Paddling", 
+            "largeVE": "", 
+            "posture": "any", 
+            "multitask": "low", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "app to change locomotion method, combines arm swinging, jumping and strafing by turning the controllers", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "combination", 
+            "hardware": "", 
+            "number": 99, 
+            "year": 2018.0, 
+            "id": "Natural Locomotion", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "User changes gravity direction by pointing, making the avatar fall along the gravity direction", 
+            "figure": "", 
+            "similarity": "", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 100, 
+            "year": "", 
+            "id": "Gravity Swell", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Haptic feedback is provided as a function of walked distance or to simulate avatar's steps", 
+            "figure": "", 
+            "similarity": "Sliding,Flying", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "addon", 
+            "hardware": "", 
+            "number": 101, 
+            "year": 2020.0, 
+            "id": "Haptic Feedback", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "User grasps the head and throws it. Pressing a button teleports the rest of the body to the location. Five levels of increased discomfort, where level 0 keeps the orientation of the camera matched to the HMD and level 4 matches camera orientation to the eye direction on the thrown head.", 
+            "figure": "", 
+            "similarity": "Grappling Hook,Teleport Throw,Teleport", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 102, 
+            "year": "", 
+            "id": "Head Bowling", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "joystick + head", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The viewpoint changes smoothly and with high velocity on the ground, making a step in the combined direction of joystick and viewing", 
+            "figure": "", 
+            "similarity": "Dashing,Joystick,Cloudstep", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "joystick", 
+            "number": 103, 
+            "year": "", 
+            "id": "Dashing Joystick", 
+            "largeVE": "low", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "The location changes when a cane touches the ground and is moved simulating the dynamic of a walking stick", 
+            "figure": "", 
+            "similarity": "Hand Walking,Climbing", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "grab", 
+            "hardware": "", 
+            "number": 104, 
+            "year": "", 
+            "id": "Walking Stick", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "controller", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "The viewpoint changes smoothly and with high velocity on the ground, making a step in the direction where the user points", 
+            "figure": "", 
+            "similarity": "Dashing,Cloudstep", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "controller", 
+            "number": 105, 
+            "year": "", 
+            "id": "Dash Pointing", 
+            "largeVE": "low", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "medium"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "The user extends the hands and moves a ball surrounding the avatar. the ball follows its own dynamic, like a marble. Inspired by supermonkeyball game", 
+            "figure": "", 
+            "similarity": "Omnidirectional Treadmill,Hand Walking", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "movement", 
+            "hardware": "", 
+            "number": 106, 
+            "year": "", 
+            "id": "Hamser Ball", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "head", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "User moves forward with constant speed when a button is pressed", 
+            "figure": "", 
+            "similarity": "Sliding,Flying", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "button", 
+            "number": 107, 
+            "year": "", 
+            "id": "Sliding Looking", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "", 
+            "figure": "", 
+            "similarity": "Redirected Walking,Hallway,Architectural Portals", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "?", 
+            "hardware": "", 
+            "number": 108, 
+            "year": 2018.0, 
+            "id": "Redirected Teleportation", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "head", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "Movement speed on ground proportional to joystic up to a max velocity. Direction is modulated by head and joystick", 
+            "figure": "", 
+            "similarity": "Joystick,Sliding", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "joystick", 
+            "number": 109, 
+            "year": "", 
+            "id": "Sliding Joystick", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "Movement are associated with body postures that leave hands free", 
+            "figure": "", 
+            "similarity": "Lean to Move,Joyman,VibroSkate,Hoverboard", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "gesture", 
+            "hardware": "", 
+            "number": 110, 
+            "year": 2015.0, 
+            "id": "LazyNav", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }, 
+        {
+            "direction": "head", 
+            "vection": "low", 
+            "embodiment": "medium", 
+            "description": "When pressing a button, the user moves towards the pointing direction with fixed speed", 
+            "figure": "", 
+            "similarity": "Joystick,Sliding,Teleport Walk,Treading", 
+            "energy": "low", 
+            "accessibility": "", 
+            "group": "controller", 
+            "hardware": "controller", 
+            "number": 111, 
+            "year": "", 
+            "id": "Sliding Pointing", 
+            "largeVE": "high", 
+            "posture": "any", 
+            "multitask": "medium", 
+            "nausea": "high"
+        }, 
+        {
+            "direction": "", 
+            "vection": "", 
+            "embodiment": "", 
+            "description": "tilting the head increases speed in that direction", 
+            "figure": "", 
+            "similarity": "HMD Acceleration,Bobbing-Walking", 
+            "energy": "", 
+            "accessibility": "", 
+            "group": "relative position", 
+            "hardware": "", 
+            "number": 112, 
+            "year": 2017.0, 
+            "id": "Head Tilt", 
+            "largeVE": "", 
+            "posture": "", 
+            "multitask": "", 
+            "nausea": ""
+        }
+    ], 
+    "links":[
+        {
+            "source": "Left Hand Right Hand", 
+            "target": "Telepath", 
+            "value": 1
+        }, 
+        {
+            "source": "Left Hand Right Hand", 
+            "target": "Spycam Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person + Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person + Teleport", 
+            "target": "Astral Body", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person + Teleport", 
+            "target": "Third Person", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Omnidirectional Elevator", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Minimap Jump", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Projected Portal", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Teleport Presets", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Redirected Teleportation", 
+            "value": 1
+        }, 
+        {
+            "source": "Arm Swinger", 
+            "target": "Climbing", 
+            "value": 1
+        }, 
+        {
+            "source": "Arm Swinger", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Arm Swinger", 
+            "target": "Flapping", 
+            "value": 1
+        }, 
+        {
+            "source": "Arm Swinger", 
+            "target": "Rowing", 
+            "value": 1
+        }, 
+        {
+            "source": "Arm Swinger", 
+            "target": "Paddling", 
+            "value": 1
+        }, 
+        {
+            "source": "Astral Body", 
+            "target": "Third Person + Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Astral Body", 
+            "target": "Third Person", 
+            "value": 1
+        }, 
+        {
+            "source": "Astral Body", 
+            "target": "Flying Vehicle", 
+            "value": 1
+        }, 
+        {
+            "source": "VibroSkate", 
+            "target": "Hoverboard", 
+            "value": 1
+        }, 
+        {
+            "source": "VibroSkate", 
+            "target": "3D Rudder", 
+            "value": 1
+        }, 
+        {
+            "source": "VibroSkate", 
+            "target": "Lean to Move", 
+            "value": 1
+        }, 
+        {
+            "source": "VibroSkate", 
+            "target": "Joyman", 
+            "value": 1
+        }, 
+        {
+            "source": "VibroSkate", 
+            "target": "FlexPerch", 
+            "value": 1
+        }, 
+        {
+            "source": "VibroSkate", 
+            "target": "LazyNav", 
+            "value": 1
+        }, 
+        {
+            "source": "Bobbing-Walking", 
+            "target": "HMD Acceleration", 
+            "value": 1
+        }, 
+        {
+            "source": "Bobbing-Walking", 
+            "target": "Head Tilt", 
+            "value": 1
+        }, 
+        {
+            "source": "Charge Float Jump", 
+            "target": "EVA Thrusters", 
+            "value": 1
+        }, 
+        {
+            "source": "Charge Float Jump", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Cinematic Blink", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Cinematic Blink", 
+            "target": "Unconstrained Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Cinematic Blink", 
+            "target": "Fading", 
+            "value": 1
+        }, 
+        {
+            "source": "Cinematic Blink", 
+            "target": "Volume Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Climbing", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Climbing", 
+            "target": "Walking Stick", 
+            "value": 1
+        }, 
+        {
+            "source": "Climbing", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "Climbing", 
+            "target": "Swimming", 
+            "value": 1
+        }, 
+        {
+            "source": "Climbing", 
+            "target": "Rowing", 
+            "value": 1
+        }, 
+        {
+            "source": "Climbing", 
+            "target": "Paddling", 
+            "value": 1
+        }, 
+        {
+            "source": "Cloudstep", 
+            "target": "Dashing", 
+            "value": 1
+        }, 
+        {
+            "source": "Cloudstep", 
+            "target": "Short Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Cloudstep", 
+            "target": "Dashing Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Cloudstep", 
+            "target": "Dash Pointing", 
+            "value": 1
+        }, 
+        {
+            "source": "Cloudstep", 
+            "target": "Snap Turn", 
+            "value": 1
+        }, 
+        {
+            "source": "Cycling", 
+            "target": "Bicycle", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing", 
+            "target": "Cloudstep", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing", 
+            "target": "Short Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing", 
+            "target": "Dashing Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing", 
+            "target": "Dash Pointing", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing", 
+            "target": "Snap Turn", 
+            "value": 1
+        }, 
+        {
+            "source": "Driving", 
+            "target": "Room-scale Vehicle", 
+            "value": 1
+        }, 
+        {
+            "source": "Driving", 
+            "target": "Vehicle VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Driving", 
+            "target": "Flying Carpet", 
+            "value": 1
+        }, 
+        {
+            "source": "Entering Building", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Espire Control Theater", 
+            "target": "Room-scale Vehicle", 
+            "value": 1
+        }, 
+        {
+            "source": "Espire Control Theater", 
+            "target": "Holosphere", 
+            "value": 1
+        }, 
+        {
+            "source": "EVA Thrusters", 
+            "target": "Charge Float Jump", 
+            "value": 1
+        }, 
+        {
+            "source": "EVA Thrusters", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "EVA Thrusters", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Fading", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Fading", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Fading", 
+            "target": "Unconstrained Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Fading", 
+            "target": "Volume Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Finger Run", 
+            "target": "Hand Posture", 
+            "value": 1
+        }, 
+        {
+            "source": "Flapping", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "Flapping", 
+            "target": "Swimming", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying", 
+            "target": "Charge Float Jump", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying", 
+            "target": "Turning + Rotating", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying", 
+            "target": "Sliding Looking", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying Carpet", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying Carpet", 
+            "target": "Hand Rockets", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying Carpet", 
+            "target": "Skier", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying Carpet", 
+            "target": "Driving", 
+            "value": 1
+        }, 
+        {
+            "source": "Focal Point VR", 
+            "target": "Scale the World", 
+            "value": 1
+        }, 
+        {
+            "source": "Grab + No Gravity", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Grappling Hook", 
+            "target": "Teleport Throw", 
+            "value": 1
+        }, 
+        {
+            "source": "Grappling Hook", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Grappling Hook", 
+            "target": "Head Bowling", 
+            "value": 1
+        }, 
+        {
+            "source": "Hallway", 
+            "target": "Redirected Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Hallway", 
+            "target": "Redirected Teleportation", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Posture", 
+            "target": "Finger Run", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Rockets", 
+            "target": "Skier", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Rockets", 
+            "target": "Flying Carpet", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Walking", 
+            "target": "Climbing", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Walking", 
+            "target": "Swimming", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Walking", 
+            "target": "Walking Stick", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Walking", 
+            "target": "Teleport Walk", 
+            "value": 1
+        }, 
+        {
+            "source": "Hand Walking", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "HMD Acceleration", 
+            "target": "Bobbing-Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "HMD Acceleration", 
+            "target": "Head Tilt", 
+            "value": 1
+        }, 
+        {
+            "source": "Holosphere", 
+            "target": "Espire Control Theater", 
+            "value": 1
+        }, 
+        {
+            "source": "Holosphere", 
+            "target": "Tunneling", 
+            "value": 1
+        }, 
+        {
+            "source": "Hoverboard", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "Hoverboard", 
+            "target": "3D Rudder", 
+            "value": 1
+        }, 
+        {
+            "source": "Hoverboard", 
+            "target": "FlexPerch", 
+            "value": 1
+        }, 
+        {
+            "source": "Hoverboard", 
+            "target": "Lean to Move", 
+            "value": 1
+        }, 
+        {
+            "source": "Hoverboard", 
+            "target": "LazyNav", 
+            "value": 1
+        }, 
+        {
+            "source": "Impossible Portals", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Impossible Portals", 
+            "target": "Projected Portal", 
+            "value": 1
+        }, 
+        {
+            "source": "Impossible Portals", 
+            "target": "Teleport Presets", 
+            "value": 1
+        }, 
+        {
+            "source": "Impossible Portals", 
+            "target": "Minimap Jump", 
+            "value": 1
+        }, 
+        {
+            "source": "Impossible Portals", 
+            "target": "Omnidirectional Elevator", 
+            "value": 1
+        }, 
+        {
+            "source": "3D Rudder", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "3D Rudder", 
+            "target": "Hoverboard", 
+            "value": 1
+        }, 
+        {
+            "source": "3D Rudder", 
+            "target": "FlexPerch", 
+            "value": 1
+        }, 
+        {
+            "source": "Joyman", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "Joyman", 
+            "target": "Lean to Move", 
+            "value": 1
+        }, 
+        {
+            "source": "Joyman", 
+            "target": "LazyNav", 
+            "value": 1
+        }, 
+        {
+            "source": "Joyman", 
+            "target": "Ninja Run VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Joystick", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "Joystick", 
+            "target": "Sliding Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Joystick", 
+            "target": "Dashing Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Joystick", 
+            "target": "EVA Thrusters", 
+            "value": 1
+        }, 
+        {
+            "source": "Joystick", 
+            "target": "3D Mouse", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Projected Portal", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Jump VR", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "Joyman", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "LazyNav", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "3D Rudder", 
+            "value": 1
+        }, 
+        {
+            "source": "Local Area", 
+            "target": "Room Scale", 
+            "value": 1
+        }, 
+        {
+            "source": "Scale the World", 
+            "target": "Focal Point VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Ninja Run VR", 
+            "target": "Joyman", 
+            "value": 1
+        }, 
+        {
+            "source": "Ninja Run VR", 
+            "target": "Lean to Move", 
+            "value": 1
+        }, 
+        {
+            "source": "Ninja Run VR", 
+            "target": "Superman Flight", 
+            "value": 1
+        }, 
+        {
+            "source": "Ninja Run VR", 
+            "target": "Ninja Run VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Elevator", 
+            "target": "Teleport Presets", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Elevator", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Elevator", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Elevator", 
+            "target": "Barrels", 
+            "value": 1
+        }, 
+        {
+            "source": "Passive Move", 
+            "target": "Running on Rails", 
+            "value": 1
+        }, 
+        {
+            "source": "PocketStrafe", 
+            "target": "RIPMotion", 
+            "value": 1
+        }, 
+        {
+            "source": "PocketStrafe", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Projected Portal", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Projected Portal", 
+            "target": "Minimap Jump", 
+            "value": 1
+        }, 
+        {
+            "source": "Projected Portal", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Projected Portal", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Projected Portal", 
+            "target": "Teleport Presets", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Walking", 
+            "target": "Hallway", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Walking", 
+            "target": "Redirected Teleportation", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Walking", 
+            "target": "Barrels", 
+            "value": 1
+        }, 
+        {
+            "source": "RIPMotion", 
+            "target": "PocketStrafe", 
+            "value": 1
+        }, 
+        {
+            "source": "RIPMotion", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Room-scale Vehicle", 
+            "target": "Vehicle VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Room-scale Vehicle", 
+            "target": "Driving", 
+            "value": 1
+        }, 
+        {
+            "source": "Room-scale Vehicle", 
+            "target": "Espire Control Theater", 
+            "value": 1
+        }, 
+        {
+            "source": "Room Scale", 
+            "target": "Local Area", 
+            "value": 1
+        }, 
+        {
+            "source": "Running on Rails", 
+            "target": "Passive Move", 
+            "value": 1
+        }, 
+        {
+            "source": "Skier", 
+            "target": "Hand Rockets", 
+            "value": 1
+        }, 
+        {
+            "source": "Skier", 
+            "target": "Flying Carpet", 
+            "value": 1
+        }, 
+        {
+            "source": "Skier", 
+            "target": "Ninja Run VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "EVA Thrusters", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "Sliding Looking", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "Sliding Pointing", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "Sliding Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "Haptic Feedback", 
+            "value": 1
+        }, 
+        {
+            "source": "Snap N'Motion", 
+            "target": "Cosmic Wandering", 
+            "value": 1
+        }, 
+        {
+            "source": "Snap N'Motion", 
+            "target": "World Rotator", 
+            "value": 1
+        }, 
+        {
+            "source": "Snap Turn", 
+            "target": "Cloudstep", 
+            "value": 1
+        }, 
+        {
+            "source": "Snap Turn", 
+            "target": "Dashing", 
+            "value": 1
+        }, 
+        {
+            "source": "Snap Turn", 
+            "target": "Volume Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Superman Flight", 
+            "target": "Ninja Run VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Swimming", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Swimming", 
+            "target": "Climbing", 
+            "value": 1
+        }, 
+        {
+            "source": "Swimming", 
+            "target": "Flapping", 
+            "value": 1
+        }, 
+        {
+            "source": "Swimming", 
+            "target": "Rowing", 
+            "value": 1
+        }, 
+        {
+            "source": "Swimming", 
+            "target": "Paddling", 
+            "value": 1
+        }, 
+        {
+            "source": "Telepath", 
+            "target": "Left Hand Right Hand", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Presets", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Presets", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Presets", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Presets", 
+            "target": "Omnidirectional Elevator", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Presets", 
+            "target": "Projected Portal", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Reorient", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Cooldown", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Cooldown", 
+            "target": "Short Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Throw", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Throw", 
+            "target": "Grappling Hook", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Throw", 
+            "target": "Head Bowling", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Walk", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Walk", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Short Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Short Teleport", 
+            "target": "Teleport Cooldown", 
+            "value": 1
+        }, 
+        {
+            "source": "Spycam Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Spycam Teleport", 
+            "target": "Left Hand Right Hand", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person", 
+            "target": "Third Person + Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person", 
+            "target": "Flying Vehicle", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person", 
+            "target": "Astral Body", 
+            "value": 1
+        }, 
+        {
+            "source": "Treading", 
+            "target": "Skier", 
+            "value": 1
+        }, 
+        {
+            "source": "Treading", 
+            "target": "Hand Rockets", 
+            "value": 1
+        }, 
+        {
+            "source": "Tunneling", 
+            "target": "Holosphere", 
+            "value": 1
+        }, 
+        {
+            "source": "Turning + Rotating", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Unconstrained Teleport", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Unconstrained Teleport", 
+            "target": "Fading", 
+            "value": 1
+        }, 
+        {
+            "source": "Unconstrained Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Vehicle VR", 
+            "target": "Room-scale Vehicle", 
+            "value": 1
+        }, 
+        {
+            "source": "Vehicle VR", 
+            "target": "Driving", 
+            "value": 1
+        }, 
+        {
+            "source": "Vehicle VR", 
+            "target": "Barrels", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying Vehicle", 
+            "target": "Third Person", 
+            "value": 1
+        }, 
+        {
+            "source": "Flying Vehicle", 
+            "target": "Astral Body", 
+            "value": 1
+        }, 
+        {
+            "source": "Volume Blink", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Volume Blink", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Volume Blink", 
+            "target": "Fading", 
+            "value": 1
+        }, 
+        {
+            "source": "Volume Blink", 
+            "target": "Snap Turn", 
+            "value": 1
+        }, 
+        {
+            "source": "Slippery Ground", 
+            "target": "Treadport", 
+            "value": 1
+        }, 
+        {
+            "source": "Slippery Ground", 
+            "target": "Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Slippery Ground", 
+            "target": "Omnidirectional Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Slippery Ground", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Walk in Place", 
+            "target": "PocketStrafe", 
+            "value": 1
+        }, 
+        {
+            "source": "Walk in Place", 
+            "target": "RIPMotion", 
+            "value": 1
+        }, 
+        {
+            "source": "Walk in Place", 
+            "target": "Slippery Ground", 
+            "value": 1
+        }, 
+        {
+            "source": "Cosmic Wandering", 
+            "target": "Snap N'Motion", 
+            "value": 1
+        }, 
+        {
+            "source": "Cosmic Wandering", 
+            "target": "World Rotator", 
+            "value": 1
+        }, 
+        {
+            "source": "World Rotator", 
+            "target": "Snap N'Motion", 
+            "value": 1
+        }, 
+        {
+            "source": "World Rotator", 
+            "target": "Cosmic Wandering", 
+            "value": 1
+        }, 
+        {
+            "source": "Seven League Boots", 
+            "target": "NaviFields", 
+            "value": 1
+        }, 
+        {
+            "source": "Seven League Boots", 
+            "target": "Ground-Level Scaling", 
+            "value": 1
+        }, 
+        {
+            "source": "Seven League Boots", 
+            "target": "Eye-Level Scaling", 
+            "value": 1
+        }, 
+        {
+            "source": "Eye-Level Scaling", 
+            "target": "Ground-Level Scaling", 
+            "value": 1
+        }, 
+        {
+            "source": "Eye-Level Scaling", 
+            "target": "Seven League Boots", 
+            "value": 1
+        }, 
+        {
+            "source": "Ground-Level Scaling", 
+            "target": "Eye-Level Scaling", 
+            "value": 1
+        }, 
+        {
+            "source": "Ground-Level Scaling", 
+            "target": "Seven League Boots", 
+            "value": 1
+        }, 
+        {
+            "source": "NaviFields", 
+            "target": "Seven League Boots", 
+            "value": 1
+        }, 
+        {
+            "source": "NaviFields", 
+            "target": "Ground-Level Scaling", 
+            "value": 1
+        }, 
+        {
+            "source": "NaviFields", 
+            "target": "Eye-Level Scaling", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadmill", 
+            "target": "Omnidirectional Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadmill", 
+            "target": "Treadport", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadmill", 
+            "target": "Slippery Ground", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadmill", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Treadmill", 
+            "target": "Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Treadmill", 
+            "target": "Treadport", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Treadmill", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Treadmill", 
+            "target": "Slippery Ground", 
+            "value": 1
+        }, 
+        {
+            "source": "Bicycle", 
+            "target": "Cycling", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadport", 
+            "target": "Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadport", 
+            "target": "Omnidirectional Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadport", 
+            "target": "Slippery Ground", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadport", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Stepper", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "FlexPerch", 
+            "target": "3D Rudder", 
+            "value": 1
+        }, 
+        {
+            "source": "FlexPerch", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "FlexPerch", 
+            "target": "Hoverboard", 
+            "value": 1
+        }, 
+        {
+            "source": "3D Mouse", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Barrels", 
+            "target": "Vehicle VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Barrels", 
+            "target": "Redirected Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Rowing", 
+            "target": "Paddling", 
+            "value": 1
+        }, 
+        {
+            "source": "Rowing", 
+            "target": "Swimming", 
+            "value": 1
+        }, 
+        {
+            "source": "Rowing", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "Rowing", 
+            "target": "Climbing", 
+            "value": 1
+        }, 
+        {
+            "source": "Rowing", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Paddling", 
+            "target": "Rowing", 
+            "value": 1
+        }, 
+        {
+            "source": "Paddling", 
+            "target": "Swimming", 
+            "value": 1
+        }, 
+        {
+            "source": "Paddling", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "Paddling", 
+            "target": "Climbing", 
+            "value": 1
+        }, 
+        {
+            "source": "Paddling", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Haptic Feedback", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "Haptic Feedback", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Head Bowling", 
+            "target": "Grappling Hook", 
+            "value": 1
+        }, 
+        {
+            "source": "Head Bowling", 
+            "target": "Teleport Throw", 
+            "value": 1
+        }, 
+        {
+            "source": "Head Bowling", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing Joystick", 
+            "target": "Dashing", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing Joystick", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Dashing Joystick", 
+            "target": "Cloudstep", 
+            "value": 1
+        }, 
+        {
+            "source": "Walking Stick", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Walking Stick", 
+            "target": "Climbing", 
+            "value": 1
+        }, 
+        {
+            "source": "Dash Pointing", 
+            "target": "Dashing", 
+            "value": 1
+        }, 
+        {
+            "source": "Dash Pointing", 
+            "target": "Cloudstep", 
+            "value": 1
+        }, 
+        {
+            "source": "Hamser Ball", 
+            "target": "Omnidirectional Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "Hamser Ball", 
+            "target": "Hand Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Looking", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Looking", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Teleportation", 
+            "target": "Redirected Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Teleportation", 
+            "target": "Hallway", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Teleportation", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Joystick", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Joystick", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "LazyNav", 
+            "target": "Lean to Move", 
+            "value": 1
+        }, 
+        {
+            "source": "LazyNav", 
+            "target": "Joyman", 
+            "value": 1
+        }, 
+        {
+            "source": "LazyNav", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "LazyNav", 
+            "target": "Hoverboard", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Pointing", 
+            "target": "Joystick", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Pointing", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Pointing", 
+            "target": "Teleport Walk", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding Pointing", 
+            "target": "Treading", 
+            "value": 1
+        }, 
+        {
+            "source": "Head Tilt", 
+            "target": "HMD Acceleration", 
+            "value": 1
+        }, 
+        {
+            "source": "Head Tilt", 
+            "target": "Bobbing-Walking", 
+            "value": 1
+        }
+    ]
+}

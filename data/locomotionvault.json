@@ -1,0 +1,1300 @@
+{
+    "nodes":[
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "low", 
+            "number": 1, 
+            "hardware": "hand tracking", 
+            "year": "2015", 
+            "posture": "any", 
+            "id": "Left Hand Right Hand", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "medium", 
+            "number": 2, 
+            "hardware": "controller", 
+            "year": "2019", 
+            "posture": "any", 
+            "id": "Third Person + Teleport", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "https://unseendiplomacy2.com/2019/04/portal-rendering-part-1-a-brief-history-of-portals/", 
+            "accessibility": "high", 
+            "number": 3, 
+            "hardware": "none", 
+            "year": "1995", 
+            "posture": "any", 
+            "id": "Architectural Portals", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "low", 
+            "number": 4, 
+            "hardware": "controllers", 
+            "year": "2016", 
+            "posture": "any", 
+            "id": "Arm Swinger", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "high", 
+            "number": 5, 
+            "hardware": "button", 
+            "year": "2017", 
+            "posture": "any", 
+            "id": "Astral Body", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle, relative position", 
+            "figure": "", 
+            "accessibility": "high", 
+            "number": 6, 
+            "hardware": "resistance board with some measurement of displacement/pressure", 
+            "year": "2015", 
+            "posture": "standing", 
+            "id": "VibroSkate", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "no? / high? (SE)", 
+            "number": 7, 
+            "hardware": "none", 
+            "year": "2016", 
+            "posture": "any? (SE)", 
+            "id": "Bobbing-Walking", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "high", 
+            "number": 8, 
+            "hardware": "button", 
+            "year": "2017", 
+            "posture": "any", 
+            "id": "Charge Float Jump", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 9, 
+            "hardware": "button", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Cinematic Blink", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "grab", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 10, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Climbing", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 11, 
+            "hardware": "gamepad", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Cloudstep", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 12, 
+            "hardware": "Bike modified to detect energy output and possibly handle orientation", 
+            "year": "", 
+            "posture": "seated", 
+            "id": "Cycling", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 13, 
+            "hardware": "?", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Dashing", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 14, 
+            "hardware": "wheel", 
+            "year": "", 
+            "posture": "seated", 
+            "id": "Driving", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 15, 
+            "hardware": "?", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Entering Building", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "hybrid", 
+            "figure": "https://youtu.be/iFSMdfVvsl8?t=27", 
+            "accessibility": "yes", 
+            "number": 16, 
+            "hardware": "none? / controller? (SE)", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Espire Control Theater", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 17, 
+            "hardware": "joypad", 
+            "year": "", 
+            "posture": "any", 
+            "id": "EVA Thrusters", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 18, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Fading", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "gesture", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 19, 
+            "hardware": "hand tracking", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Finger Run", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 20, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Flapping", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 21, 
+            "hardware": "buttons", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Flying", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 22, 
+            "hardware": "some", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Flying Carpet", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "grab", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 23, 
+            "hardware": "controllers", 
+            "year": "2016", 
+            "posture": "any", 
+            "id": "Focal Point VR", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "hybrid", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 24, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Freedom Locomotion ", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "grab", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 25, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Grab + No Gravity", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 26, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Grappling Hook", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 27, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Hallway", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "gesture", 
+            "figure": "  ", 
+            "accessibility": "", 
+            "number": 28, 
+            "hardware": "hand tracking", 
+            "year": "2019", 
+            "posture": "any", 
+            "id": "Hand Posture", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 29, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Hand Rockets", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "grab", 
+            "figure": "Lucid Trips Introduction Video\r\n", 
+            "accessibility": "", 
+            "number": 30, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Hand Walking", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "relative position", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 31, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "any", 
+            "id": "HMD Acceleration", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 32, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Holosphere", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle, relative position", 
+            "figure": "", 
+            "accessibility": "yes", 
+            "number": 33, 
+            "hardware": "simple board, phone, and ceiling mount w/ ropes.", 
+            "year": "2017", 
+            "posture": "Standing (Suspended)", 
+            "id": "Hoverboard", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "https://unseendiplomacy2.com/2019/04/portal-rendering-part-1-a-brief-history-of-portals/", 
+            "accessibility": "yes", 
+            "number": 34, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Impossible Portals", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "relative position", 
+            "figure": "", 
+            "accessibility": "medium", 
+            "number": 35, 
+            "hardware": "3D Rudder", 
+            "year": "2015", 
+            "posture": "sitting? (SE)", 
+            "id": "3D Rudder", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "relative position", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 36, 
+            "hardware": "joy", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Joyman", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 37, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Joystick", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 38, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Minimap Jump", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 39, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Jump VR", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "relative position", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 40, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Lean to Move", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 41, 
+            "hardware": "?", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Local Area", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "grab", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 42, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Scale the World", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "relative position", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 43, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Ninja Run VR", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 44, 
+            "hardware": "controller?", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Omnidirectional Elevator", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 45, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Passive Move", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 46, 
+            "hardware": "phone", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "PocketStrafe", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 47, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Projected Portal", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 48, 
+            "hardware": "none", 
+            "year": "2016", 
+            "posture": "standing", 
+            "id": "Redirected Walking", 
+            "nausea": "low? / medium? (SE)"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 49, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "RIPMotion", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 50, 
+            "hardware": "some", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Room-scale Vehicle", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 51, 
+            "hardware": "tracking", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Room Scale", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 52, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Running on Rails", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 54, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Skier", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 55, 
+            "hardware": "joypad", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Sliding", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 56, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Snap N'Motion", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 57, 
+            "hardware": "gamepad", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Snap Turn", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "relative position", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 58, 
+            "hardware": "hand tracking", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Superman Flight", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 59, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Swimming", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 60, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Telepath", 
+            "nausea": "?"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 61, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Teleport Presets", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 62, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Teleport", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 63, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Teleport Reorient", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 64, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Teleport Cooldown", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 65, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Teleport Throw", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 66, 
+            "hardware": "controllers", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Teleport Walk", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 67, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Short Teleport", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 68, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Spycam Teleport", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 69, 
+            "hardware": "gamepad", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Third Person", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 70, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "", 
+            "id": "Treading", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 71, 
+            "hardware": "button", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Tunneling", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 72, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Turning + Rotating", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 73, 
+            "hardware": "some", 
+            "year": "", 
+            "posture": "any", 
+            "id": "TV Screen", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 74, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Unconstrained Teleport", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 75, 
+            "hardware": "some", 
+            "year": "", 
+            "posture": "seated", 
+            "id": "Vehicle VR", 
+            "nausea": "medium"
+        }, 
+        {
+            "group": "vehicle", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 76, 
+            "hardware": "some", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Flying Vehicle", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "controller", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 77, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "", 
+            "id": "Virtual Turntable", 
+            "nausea": "high"
+        }, 
+        {
+            "group": "teleportation", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 78, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "", 
+            "id": "Volume Blink", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 79, 
+            "hardware": "device", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Slippery Ground", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "movement", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 80, 
+            "hardware": "controller", 
+            "year": "", 
+            "posture": "standing", 
+            "id": "Walk in Place", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 81, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "any", 
+            "id": "Cosmic Wandering", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "roomscale", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 82, 
+            "hardware": "none", 
+            "year": "", 
+            "posture": "walking", 
+            "id": "World Rotator", 
+            "nausea": "low"
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 83, 
+            "hardware": "trackers", 
+            "year": "", 
+            "posture": "walking", 
+            "id": "Seven League Boots", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 84, 
+            "hardware": "trackers", 
+            "year": "", 
+            "posture": "walking", 
+            "id": "Eye-Level Scaling", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 85, 
+            "hardware": "trackers", 
+            "year": "", 
+            "posture": "walking", 
+            "id": "Ground-Level Scaling", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 86, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "", 
+            "id": "NaviFields", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 87, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "", 
+            "id": "Treadmill", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 88, 
+            "hardware": "", 
+            "year": "1997", 
+            "posture": "", 
+            "id": "Omnidirectional Treadmill", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 89, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "", 
+            "id": "Bicycle", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 90, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "", 
+            "id": "Treadport", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 91, 
+            "hardware": "", 
+            "year": "1994", 
+            "posture": "", 
+            "id": "Pedaling", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 92, 
+            "hardware": "", 
+            "year": "1995", 
+            "posture": "", 
+            "id": "Stepper", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 93, 
+            "hardware": "", 
+            "year": "2019", 
+            "posture": "", 
+            "id": "FlexPerch", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 94, 
+            "hardware": "", 
+            "year": "", 
+            "posture": "", 
+            "id": "3D Mouse", 
+            "nausea": ""
+        }, 
+        {
+            "group": "?", 
+            "figure": "", 
+            "accessibility": "", 
+            "number": 95, 
+            "hardware": "", 
+            "year": "2020", 
+            "posture": "", 
+            "id": "Barrels", 
+            "nausea": ""
+        }
+    ], 
+    "links":[
+        {
+            "source": "Third Person + Teleport", 
+            "target": "Astral Body", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person + Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person + Teleport", 
+            "target": "Third Person", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Projected Portal", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Architectural Portals", 
+            "target": "Redirected Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Impossible Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Architectural Portals", 
+            "value": 1
+        }, 
+        {
+            "source": "Minimap Jump", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Jump VR", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Jump VR", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "HMD Acceleration", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "Joyman", 
+            "value": 1
+        }, 
+        {
+            "source": "Lean to Move", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Elevator", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Omnidirectional Elevator", 
+            "target": "Vehicle VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Passive Move", 
+            "target": "Running on Rails", 
+            "value": 1
+        }, 
+        {
+            "source": "PocketStrafe", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "PocketStrafe", 
+            "target": "Jump VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Projected Portal", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Walking", 
+            "target": "Slippery Ground", 
+            "value": 1
+        }, 
+        {
+            "source": "Redirected Walking", 
+            "target": "Hallway", 
+            "value": 1
+        }, 
+        {
+            "source": "RIPMotion", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Room-scale Vehicle", 
+            "target": "Vehicle VR", 
+            "value": 1
+        }, 
+        {
+            "source": "Room-scale Vehicle", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Room Scale", 
+            "target": "Slippery Ground", 
+            "value": 1
+        }, 
+        {
+            "source": "Running on Rails", 
+            "target": "Passive Move", 
+            "value": 1
+        }, 
+        {
+            "source": "Sliding", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Snap N'Motion", 
+            "target": "World Rotator", 
+            "value": 1
+        }, 
+        {
+            "source": "Superman Flight", 
+            "target": "Flying", 
+            "value": 1
+        }, 
+        {
+            "source": "Telepath", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Reorient", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Cooldown", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Throw", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Throw", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Teleport Walk", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Short Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Spycam Teleport", 
+            "target": "Teleport", 
+            "value": 1
+        }, 
+        {
+            "source": "Third Person", 
+            "target": "Astral Body", 
+            "value": 1
+        }, 
+        {
+            "source": "Treading", 
+            "target": "Sliding", 
+            "value": 1
+        }, 
+        {
+            "source": "Unconstrained Teleport", 
+            "target": "Minimap Jump", 
+            "value": 1
+        }, 
+        {
+            "source": "Unconstrained Teleport", 
+            "target": "Cinematic Blink", 
+            "value": 1
+        }, 
+        {
+            "source": "Slippery Ground", 
+            "target": "Walk in Place", 
+            "value": 1
+        }, 
+        {
+            "source": "Walk in Place", 
+            "target": "Arm Swinger", 
+            "value": 1
+        }, 
+        {
+            "source": "World Rotator", 
+            "target": "Redirected Walking", 
+            "value": 1
+        }, 
+        {
+            "source": "World Rotator", 
+            "target": "Hallway", 
+            "value": 1
+        }, 
+        {
+            "source": "Treadport", 
+            "target": "Treadmill", 
+            "value": 1
+        }, 
+        {
+            "source": "FlexPerch", 
+            "target": "3D Rudder", 
+            "value": 1
+        }, 
+        {
+            "source": "FlexPerch", 
+            "target": "VibroSkate", 
+            "value": 1
+        }, 
+        {
+            "source": "FlexPerch", 
+            "target": "Hoverboard", 
+            "value": 1
+        }
+    ]
+}

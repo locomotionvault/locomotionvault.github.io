@@ -1,0 +1,54 @@
+{
+  "attribute_groups": [
+  {"name":"General", "children":["year", "links", "description", "group"]},
+  {"name":"Implementation", "children":["hardware"]},
+  {"name":"User Experience", "children":["posture", "nausea", "spatial_awareness"]}
+  ],
+
+  "nodes": [
+  	{"id": "Left Hand/Right Hand", "group": "N/A", "number":1, "year":2015, "posture":"any", "spatial_awareness":"high", "accessibility":"low","nausea":"low", "hardware":"special", "figures":["LeftHandRightHand.png"]},
+  	{"id": "Third Person+Teleportation", "group": "teleportation", "number":2, "year":2019, "posture":"any", "spatial_awareness":"medium",   "accessibility":"medium", "nausea":"low", "hardware":"controller", "figures":["ThirdPersonTeleportation.png"]},
+    {"id": "Architectural Portals", "group": "teleportation", "number":3, "year":1995, "posture":"any", "spatial_awareness":"medium",   "accessibility":"high", "nausea":"low", "hardware":"none", "figures":[]},
+    {"id": "ArmSwinger", "group": "movement", "number":4, "year":2016, "posture":"any", "spatial_awareness":"high",   "accessibility":"low", "nausea":"low", "hardware":"controller", "figures":[]},
+    {"id": "Astral Body", "group": "controller", "number":5, "year":2017, "posture":"any", "spatial_awareness":"high",  "accessibility":"high", "nausea":"low", "hardware":"button", "figures":[]},
+    {"id": "Balance Board", "group": "vehicle", "number":6, "year":2015, "posture":"?", "spatial_awareness":"high",  "accessibility":"high", "nausea":"medium", "hardware":"special", "figures":[]},
+    {"id": "Bobbing-Walking", "group": "movement", "number":7, "year":2016, "posture":"standing", "spatial_awareness":"high",   "accessibility":"low", "nausea":"medium", "hardware":"none", "figures":[]},
+    {"id": "Charge Float Jump", "group": "controller", "number":8, "year":2017, "posture":"any", "spatial_awareness":"medium",   "accessibility":"high", "nausea":"medium", "hardware":"button",  "figures":[]},
+    {"id": "Cinematic Blink", "group": "teleportation", "number":9, "posture":"any", "spatial_awareness":"low",   "accessibility":"?", "nausea":"low", "hardware":"button", "figures":[]},
+	{"id": "Climbing", "group": "grab", "number":10, "posture":"any", "spatial_awareness":"?",   "accessibility":"?", "nausea":"medium", "hardware":"controller", "figures":[]},
+	{"id": "Cloudstep", "group": "controller", "number":11, "posture":"any", "spatial_awareness":"?",   "accessibility":"?", "nausea":"medium", "hardware":"gamepad", "figures":[]},
+	{"id": "Cycling", "group": "movement", "number":12, "posture":"seated", "spatial_awareness":"?",   "accessibility":"?", "nausea":"low", "hardware":"special", "figures":[]},
+	{"id": "Dashing", "group": "?", "number":13, "posture":"any", "spatial_awareness":"?",  "accessibility":"?", "nausea":"?", "hardware":"?", "figures":[]},
+	{"id": "Driving", "group": "vehicle", "number":14, "posture":"seated", "spatial_awareness":"?",  "accessibility":"?",  "nausea":"high", "hardware":"?", "figures":[]},
+	{"id": "Entering Building", "group": "?", "number":15, "posture":"any", "spatial_awareness":"?",  "accessibility":"?", "nausea":"?", "hardware":"?", "figures":[]},
+	{"id": "Espire Control Theater", "group": "hybrid", "number":16, "posture":"any", "spatial_awareness":"high", "accessibility":"high", "nausea":"low", "hardware":"?", "figures":[]},
+	{"id": "EVA Thrusters", "group": "vehicle", "number":17, "posture":"any", "spatial_awareness":"?",  "accessibility":"?", "nausea":"high", "hardware":"?", "figures":[]},
+	{"id": "Fading", "group": "controller", "number":18, "posture":"any", "spatial_awareness":"low",  "accessibility":"?", "nausea":"low", "hardware":"?", "figures":[]},
+	{"id": "Finger Run", "group": "gesture", "number":19, "posture":"any", "spatial_awareness":"high",  "accessibility":"?", "nausea":"?", "hardware":"?", "figures":[]},
+	{"id": "Flapping", "group": "movement", "number":20, "posture":"any", "spatial_awareness":"high",  "accessibility":"?", "nausea":"high", "hardware":"?", "figures":[]},
+	{"id": "Fly", "group": "controller", "number":21, "posture":"any", "spatial_awareness":"?",  "accessibility":"?", "nausea":"high", "hardware":"?", "figures":[]},
+	{"id": "Flying Carpet", "group": "vehicle", "number":22, "posture":"standing", "spatial_awareness":"high",  "accessibility":"?", "nausea":"high", "hardware":"?", "figures":[]},
+	{"id": "Focal Point VR", "group": "vehicle", "number":23, "year":2016, "posture":"any", "spatial_awareness":"?",  "accessibility":"?", "nausea":"low", "hardware":"?", "figures":[]},
+	{"id": "Freedom Locomotion", "group": "hybrid", "number":24, "posture":"standing", "spatial_awareness":"?", "accessibility":"?", "nausea":"?", "hardware":"?", "figures":[]},
+	{"id": "Grab + Pull/Push + Zero Gravity", "group": "grab", "number":25, "posture":"standing", "spatial_awareness":"?", "accessibility":"?", "nausea":"low", "hardware":"?", "figures":[]},
+	{"id": "Grappling Hook/Web Slinging", "group": "?", "number":26, "posture":"any", "spatial_awareness":"low", "accessibility":"?", "nausea":"low", "hardware":"?", "figures":[]},
+	{"id": "Hallway", "group": "roomscale", "number":27, "posture":"standing", "spatial_awareness":"high", "accessibility":"?", "nausea":"medium", "hardware":"?", "figures":[]},
+	{"id": "Hand Posture", "group": "gesture", "number":28, "year":2019, "posture":"any", "spatial_awareness":"?", "accessibility":"?", "nausea":"high", "hardware":"?", "figures":[]},
+	{"id": "Hand Rockets/Boosting", "group": "vehicle", "number":29, "posture":"any", "spatial_awareness":"?", "accessibility":"?", "nausea":"high", "hardware":"?", "figures":["HandRockets.png"]},  
+	{"id": "Handwalking", "group": "grab", "number":30, "posture":"any", "spatial_awareness":"high", "accessibility":"?", "nausea":"medium", "hardware":"?", "figures":[]},
+	{"id": "HMD Position Acceleration", "group": "relative position", "number":31, "posture":"any", "spatial_awareness":"medium", "accessibility":"?", "nausea":"?", "hardware":"?", "figures":[]}
+	
+	],
+
+   "links": [
+   	{"source": "Third Person+Teleportation", "target": "Astral Body", "value": 1},
+    {"source": "ArmSwinger", "target": "Bobbing-Walking", "value": 1},
+    {"source": "EVA Thrusters", "target": "Hand Rockets/Boosting", "value": 1},
+    {"source": "Fading", "target": "Cinematic Blink", "value": 1},
+	{"source": "Finger Run", "target": "ArmSwinger", "value": 1},
+	{"source": "Flapping", "target": "ArmSwinger", "value": 1},
+	{"source": "Flying Carpet", "target": "Fly", "value": 1},
+	{"source": "Flying Carpet", "target": "Bobbing-Walking", "value": 1}
+	]
+
+}

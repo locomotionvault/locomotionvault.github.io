@@ -1,0 +1,223 @@
+{
+  "attributes": [
+  		{
+			"key": "id",
+			"title": "Name",
+			"parent": "General",
+			"type": "textbox",
+			"filter":false,
+			"display":false
+		},
+		{
+			"key": "description",
+			"title": "Description",
+			"parent": "General",
+			"type": "textarea",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "year",
+			"title": "Year",
+			"parent": "General",
+			"type": "range_slider",
+			"valueMatching": "range",
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "links",
+			"title": "Links",
+			"parent": "General",
+			"type": "textarea",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "figures",
+			"title": "Figure",
+			"parent": "General",
+			"type": "upload",
+			"filter":false,
+			"display":false
+		},
+		{
+			"key": "gif",
+			"title": "Media",
+			"parent": "General",
+			"type": "upload",
+			"filter":false,
+			"display":false
+		},
+		{
+			"key": "group",
+			"title": "Category",
+			"parent": "General",
+			"type": "checkbox",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "similarity",
+			"title": "Similar Methods",
+			"parent": "General",
+			"type": "similarity",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "hardware",
+			"title": "Hardware",
+			"parent": "Implementation",
+			"type": "checkbox",
+			"active": false,
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "direction",
+			"title": "Motion Direction",
+			"parent": "Implementation",
+			"type": "checkbox",
+			"active": false,
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "posture",
+			"title": "Posture",
+			"parent": "Implementation",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Any", "value": "any", "checked": false },
+				{ "title": "Standing", "value": "standing", "checked": false },
+				{ "title": "Seated", "value": "seated", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "energy",
+			"title": "Energy Required",
+			"parent": "Implementation",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "largeVE",
+			"title": "Large VE",
+			"parent": "Implementation",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "N/A", "value": "none", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "multitask",
+			"title": "Multitasking",
+			"parent": "UX",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "Ease of Learning",
+			"title": "Learnability",
+			"parent": "UX",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "nausea",
+			"title": "Nausea",
+			"parent": "UX",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "vection",
+			"title": "Illusion of motion",
+			"parent": "UX",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "embodiment",
+			"title": "Embodiment",
+			"parent": "UX",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "accessibility",
+			"title": "Accessibility",
+			"parent": "UX",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		}
+	]
+}
