@@ -39,9 +39,9 @@ function generateAttributeTable(locomotionData,attribute_groups){
 		result_inner = "";
 		attributeList = attribute_group.values.filter(function(d){return d.display});
 	  	attributeList.forEach(function(attribute, index){
-	  		attr_key = attribute.key;
-	  		attr_value = locomotionData[attr_key]?locomotionData[attr_key]:"-";
-	  		result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_key+': </span></div><div class="uk-width-3-4"><span>'+attr_value +'</span></div>';
+	  		attr_title = attribute["title"];
+	  		attr_value = locomotionData[attribute.key]?locomotionData[attribute.key]:"-";
+	  		result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_title+': </span></div><div class="uk-width-3-4"><span>'+attr_value +'</span></div>';
 	  	});
   	result += '<div class="table-title">'+attribute_group.key.toUpperCase()+'</div><div class="uk-grid-collapse" uk-grid>'+result_inner+'</div><hr>';
 
