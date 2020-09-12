@@ -26,10 +26,10 @@
 			"display":true
 		},
 		{
-			"key": "links",
-			"title": "Links",
+			"key": "Video",
+			"title": "Video",
 			"parent": "General",
-			"type": "textarea",
+			"type": "link",
 			"filter":false,
 			"display":true
 		},
