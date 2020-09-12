@@ -41,7 +41,10 @@ function generateAttributeTable(locomotionData,attribute_groups){
 	  	attributeList.forEach(function(attribute, index){
 	  		attr_title = attribute["title"];
 	  		attr_value = locomotionData[attribute.key]?locomotionData[attribute.key]:"-";
-	  		result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_title+': </span></div><div class="uk-width-3-4"><span>'+attr_value +'</span></div>';
+	  		if(attr_title=="Video")
+	  			result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_title+': </span></div><div class="uk-width-3-4"><a href="'+attr_value+'" target="_blank">'+attr_value +'</a></div>';
+	  		else
+	  			result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_title+': </span></div><div class="uk-width-3-4"><span>'+attr_value +'</span></div>';
 	  	});
   	result += '<div class="table-title">'+attribute_group.key.toUpperCase()+'</div><div class="uk-grid-collapse" uk-grid>'+result_inner+'</div><hr>';
 
@@ -50,5 +53,9 @@ function generateAttributeTable(locomotionData,attribute_groups){
   return result;
 
 }
+
+// function toProperCase(str) {
+//     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+// };
 
 

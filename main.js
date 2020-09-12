@@ -4,7 +4,7 @@
  var defaultConfig = {};
 // read data
  Promise.all([
-    d3.json("./data/locomotionvault-10-09-2020.json"),//locomotionvault-30-08-2020.json"),
+    d3.json("./data/locomotionvault-12-09-2020.json"),//locomotionvault-30-08-2020.json"),
     d3.json("./data/filterConfig.json")
 	]).then(function(files) { 
 		data = files[0];
@@ -168,18 +168,30 @@ function generateMethodToolTip(method){
     return "";
 
   methodThumbnail = '<div class="uk-cover-containerx tooltip__thumbnail"><img src="./Gifs/' +  method.figure + '" alt=""></div>'
-
-  // if (method.figure.length>0)
-  //   methodThumbnail = '<div class="uk-cover-containerx tooltip__thumbnail"><img src="./Gifs/' +  method.figure[0] + '" alt=""></div>'
-  // else 
-  //   methodThumbnail='<div class="uk-cover-containerx tooltip__thumbnail"><img src="./Gifs/FingerRun.png" alt=""></div>'
-  
+  button = '<button id="details-btn" class="uk-button uk-button-small">See details</button>'
   result = '<div class="uk-card uk-card-default uk-card-small tooltip__card">'
-            // + '<div class="gallery-item__header uk-padding-small">' + method.id + '</div>'
             + methodThumbnail
+            +button
             +'</div>';
   return result;
 }
+
+$("#similarity-container").click(function(){
+  console.log("click is called");
+  $("#method-tooltip").html("");
+  d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
+  d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');
+  d3.selectAll(".labels").style("font-size", 10 ).style("opacity",1); 
+  d3.selectAll(".nodes").classed('node-anchored',false)
+  d3.selectAll(".links").classed("link-anchored",false);
+});
+
+$('.nodes').click(function(event){
+    event.stopPropagation();
+});
+$('.links').click(function(event){
+    event.stopPropagation();
+});
 
 function hoverOnSimilarityEffects(d){
   var nodes_enter = d3.selectAll(".nodes");
@@ -216,8 +228,15 @@ function hoverOnSimilarityEffects(d){
 
 function resetHoverSimilarityEffects(){
   d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
-  d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .8).style('stroke-width', '1');
+  d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');
   d3.selectAll(".labels").style("font-size", 10 ).style("opacity",1); 
+
+  // nodes = d3.selectAll(".node-anchored");
+  // nodes.forEach(function(node,index){console.log("anchored:"+node.id)});
+  // console.log()
+  // console.log(d3.selectAll(".node-anchored"))
+  d3.selectAll(".node-anchored").style('stroke','black').style('stroke-width',2);
+  d3.selectAll(".link-anchored").style('stroke','black').style('stroke-opacity',1).style('stroke-width',1.5);
 }
 // $("#form-modal").on('click', ".similarity-textbox input:textbox", function () {
 // 	console.log("in similarity event handler")

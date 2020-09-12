@@ -228,7 +228,7 @@ FilterManager.prototype.createFrequencyPlot = function(filterElem, filterGroup, 
           return x(d.x1) - x(d.x0) ; })
         .attr("height", function(d) { 
           return manager.settings.contextHeight - y(d.length); })
-        .style("fill", "lightgrey");
+        .style("fill", "grey");
 }
 
 

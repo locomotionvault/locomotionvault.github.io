@@ -1,6 +1,6 @@
 SimilarityVis = function(_parentElement, _data, _attrConfig) {
   this.data = _data;
-  this.attrConfig = _attrConfig 
+  this.attrConfig = _attrConfig; 
 
   this.settings = {
     parentElement: _parentElement,
@@ -8,7 +8,9 @@ SimilarityVis = function(_parentElement, _data, _attrConfig) {
     legend:{left:20, right:0, top:0, bottom:20},
     nodes:{left:0, right:0, top:0, bottom:140},
     fontsize:10,
-  }
+  };
+
+  this.anchoredNode = "none";
 
   this.initVis();
 }
@@ -88,15 +90,32 @@ SimilarityVis.prototype.updateVis = function() {
   nodes_enter.on('mouseover', function (d) {
 		  	//dehighlight all nodes except for this one
         $("#method-tooltip").html(generateMethodToolTip(d));
+        $("#details-btn").on("click", function(){
+                showLocomotionModal(d.id,d,vis.attrConfig);});
         hoverOnSimilarityEffects(d);
 		})
 		.on('mouseout', function (d) {
-      $("#method-tooltip").html(generateMethodToolTip("none"))
+      if(vis.anchoredNode.id != d.id)
+        $("#method-tooltip").html(generateMethodToolTip("none"))
       resetHoverSimilarityEffects();
 		})
     .on('click', function(d){
-      showLocomotionModal(d.id,d,vis.attrConfig);
+        vis.anchoredNode = d;
+        d3.selectAll(".links").classed("link-achored", false);
+        d3.selectAll(".nodes").classed('node-anchored',false);
+        d3.selectAll(".nodes").classed('node-anchored', n => {return n.id === d.id?true:false;});   
+        d.anchored = true;
+          
+        d3.selectAll(".links")
+          .classed('link-anchored', j => {
+                return j.source === d.id || j.target === d.id ? true : false;
+            });
+        d3.event.stopPropagation();
     });
+
+  links_enter.on("click", function(d){
+    d3.event.stopPropagation();
+  });
 
         //exit, remove nodes
   vis.my_nodes.exit().remove();
