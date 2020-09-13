@@ -17,20 +17,20 @@
 			"display":true
 		},
 		{
+			"key": "Video",
+			"title": "Video",
+			"parent": "General",
+			"type": "link",
+			"filter":false,
+			"display":true
+		},
+		{
 			"key": "year",
 			"title": "Year",
 			"parent": "General",
 			"type": "range_slider",
 			"valueMatching": "range",
 			"filter":true,
-			"display":true
-		},
-		{
-			"key": "Video",
-			"title": "Video",
-			"parent": "General",
-			"type": "link",
-			"filter":false,
 			"display":true
 		},
 		{
@@ -66,6 +66,15 @@
 			"display":true
 		},
 		{
+			"key": "dof",
+			"title": "Degrees of Freedom",
+			"parent": "Implementation",
+			"type": "range_slider",
+			"valueMatching": "range",
+			"filter":true,
+			"display":true
+		},
+		{
 			"key": "hardware",
 			"title": "Hardware",
 			"parent": "Implementation",
@@ -84,9 +93,36 @@
 			"display":true
 		},
 		{
+			"key": "magical",
+			"title": "Magical",
+			"parent": "Binary",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Yes", "value": "yes", "checked": false },
+				{ "title": "No", "value": "no", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "presence",
+			"title": "Breaks Presence",
+			"parent": "Binary",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Yes", "value": "Y", "checked": false },
+				{ "title": "No", "value": "N", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
 			"key": "posture",
 			"title": "Posture",
-			"parent": "Implementation",
+			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
 			"values": [
@@ -98,9 +134,9 @@
 			"display":true
 		},
 		{
-			"key": "energy",
-			"title": "Energy Required",
-			"parent": "Implementation",
+			"key": "granularity",
+			"title": "Granularity",
+			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
 			"values": [
@@ -112,9 +148,9 @@
 			"display":true
 		},
 		{
-			"key": "largeVE",
-			"title": "Large VE",
-			"parent": "Implementation",
+			"key": "speed",
+			"title": "Speed",
+			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
 			"values": [
@@ -127,9 +163,95 @@
 			"display":true
 		},
 		{
+			"key": "largeVE",
+			"title": "Large VE",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "N/A", "value": "none", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "energy",
+			"title": "Energy Required",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "spatial awareness",
+			"title": "Spatial Awareness",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "vection",
+			"title": "Illusion of Motion",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "nausea",
+			"title": "Nausea",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "?", "value": "?", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "embodiment",
+			"title": "Embodiment",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
 			"key": "multitask",
 			"title": "Multitasking",
-			"parent": "UX",
+			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
 			"values": [
@@ -143,54 +265,11 @@
 		{
 			"key": "Ease of Learning",
 			"title": "Learnability",
-			"parent": "UX",
+			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
 			"values": [
 				{ "title": "?", "value": "?", "checked": false },
-				{ "title": "Low", "value": "low", "checked": false },
-				{ "title": "Med", "value": "medium", "checked": false },
-				{ "title": "High", "value": "high", "checked": false }
-			],
-			"filter":true,
-			"display":true
-		},
-		{
-			"key": "nausea",
-			"title": "Nausea",
-			"parent": "UX",
-			"type": "multi_select",
-			"active": false,
-			"values": [
-				{ "title": "?", "value": "?", "checked": false },
-				{ "title": "Low", "value": "low", "checked": false },
-				{ "title": "Med", "value": "medium", "checked": false },
-				{ "title": "High", "value": "high", "checked": false }
-			],
-			"filter":true,
-			"display":true
-		},
-		{
-			"key": "vection",
-			"title": "Illusion of motion",
-			"parent": "UX",
-			"type": "multi_select",
-			"active": false,
-			"values": [
-				{ "title": "Low", "value": "low", "checked": false },
-				{ "title": "Med", "value": "medium", "checked": false },
-				{ "title": "High", "value": "high", "checked": false }
-			],
-			"filter":true,
-			"display":true
-		},
-		{
-			"key": "embodiment",
-			"title": "Embodiment",
-			"parent": "UX",
-			"type": "multi_select",
-			"active": false,
-			"values": [
 				{ "title": "Low", "value": "low", "checked": false },
 				{ "title": "Med", "value": "medium", "checked": false },
 				{ "title": "High", "value": "high", "checked": false }
@@ -201,7 +280,7 @@
 		{
 			"key": "accessibility",
 			"title": "Accessibility",
-			"parent": "UX",
+			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
 			"values": [
@@ -212,6 +291,7 @@
 			],
 			"filter":true,
 			"display":true
-		}
+		}		
+
 	]
 }
