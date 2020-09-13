@@ -60,7 +60,7 @@ FilterManager.prototype.createMultiSelect = function(filterElem, filterGroup) {
 
   filterElem.values.forEach(function(filterOptions) {
     var activeClass = filterOptions.checked ? "active" : "";
-    multiSelectButtons += '<button class="uk-button uk-button-default '+ activeClass +'" data-value="'+ filterOptions.value +'"><span>'+ filterOptions.title +'</span></button>';
+    multiSelectButtons += '<button class="uk-button uk-button-small '+ activeClass +'" data-value="'+ filterOptions.value +'"><span>'+ filterOptions.title +'</span></button>';
   });
 
   var titleWidth = filterElem.customWidth ? filterElem.customWidth.title : "uk-width-1-4";
@@ -120,7 +120,8 @@ FilterManager.prototype.createRangeSlider = function(filterElem, filterGroup) {
     // return d[filterElem.key]==""? false:true;
   })
 
-  manager.createFrequencyPlot(filterElem, filterGroup, methodsWYear);
+  if(filterElem.key=="year") 
+    manager.createFrequencyPlot(filterElem, filterGroup, methodsWYear);
 
   var rangeSliderDomain = d3.extent(methodsWYear, function(d) {return parseInt(d[filterElem.key])});
   

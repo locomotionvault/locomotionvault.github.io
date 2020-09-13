@@ -67,6 +67,10 @@ div .tooltip__card{
 	overflow-y: hidden;
 }
 
+div .tooltip__thumbnail{
+	height:130px;
+}
+
 .filter-checkbox-label{
 	font-size: 12px;
 	text-transform:uppercase;

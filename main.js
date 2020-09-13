@@ -4,7 +4,7 @@
  var defaultConfig = {};
 // read data
  Promise.all([
-    d3.json("./data/locomotionvault-12-09-2020.json"),//locomotionvault-30-08-2020.json"),
+    d3.json("./data/locomotionvault-13-09-2020-2.json"),//locomotionvault-30-08-2020.json"),
     d3.json("./data/filterConfig.json")
 	]).then(function(files) { 
 		data = files[0];
@@ -33,7 +33,7 @@
 	});
 
 
-function filterData() {
+function filterNodes() {
   console.log("In filter data");
   // data = originalData; 
   nodes = originalData_nodes;
@@ -87,9 +87,23 @@ function filterData() {
   console.log(mydata.attribute_groups)
 }
 
+function filterSimilarity(){
+  links = mydata.links;
+  var simThreshold = $("#similarity-threshold-slider").val();
+  links = links.filter(function(d){ 
+          var decision = true;
+          if(d.value<simThreshold)
+            decision = false;
+    return decision;
+  });
+
+  mydata.links = links;
+}
+
 function updateViews() {
 
-	filterData();
+	filterNodes();
+  filterSimilarity();
 	$("#n-methods").text("(" + data.nodes.length + ")");
 
 	//update visualizations
@@ -148,11 +162,21 @@ $("#filter-controls").on("change", ".filter-checkboxes input:checkbox", function
 });
 
 
-$("#new-method-button").click(function(){
-	console.log("in click");
-	UIkit.modal("#form-modal").show();
-	formM.initForm();
+$("#similarity-threshold-slider").on("change",function(event){
+  newValue =$(this).val();
+  $("#similarity-threshold-val").text(newValue);
+  updateViews()
+
 });
+
+$("#similarity-threshold-slider").on("click",function(event){
+  event.stopPropagation() 
+})
+// $("#new-method-button").click(function(){
+// 	console.log("in click");
+// 	UIkit.modal("#form-modal").show();
+// 	formM.initForm();
+// });
 
 function getEnabledCheckboxes(parentElement, dataAttribute) {
   var checkboxValues = $(parentElement + " input:checkbox:checked").map(function() {
@@ -184,13 +208,6 @@ $("#similarity-container").click(function(){
   d3.selectAll(".labels").style("font-size", 10 ).style("opacity",1); 
   d3.selectAll(".nodes").classed('node-anchored',false)
   d3.selectAll(".links").classed("link-anchored",false);
-});
-
-$('.nodes').click(function(event){
-    event.stopPropagation();
-});
-$('.links').click(function(event){
-    event.stopPropagation();
 });
 
 function hoverOnSimilarityEffects(d){
@@ -230,11 +247,6 @@ function resetHoverSimilarityEffects(){
   d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
   d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');
   d3.selectAll(".labels").style("font-size", 10 ).style("opacity",1); 
-
-  // nodes = d3.selectAll(".node-anchored");
-  // nodes.forEach(function(node,index){console.log("anchored:"+node.id)});
-  // console.log()
-  // console.log(d3.selectAll(".node-anchored"))
   d3.selectAll(".node-anchored").style('stroke','black').style('stroke-width',2);
   d3.selectAll(".link-anchored").style('stroke','black').style('stroke-opacity',1).style('stroke-width',1.5);
 }
