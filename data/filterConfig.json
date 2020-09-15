@@ -112,7 +112,6 @@
 			"type": "multi_select",
 			"active": false,
 			"values": [
-				{ "title": "?", "value": "?", "checked": false },
 				{ "title": "Yes", "value": "Y", "checked": false },
 				{ "title": "No", "value": "N", "checked": false }
 			],
@@ -226,7 +225,6 @@
 			"type": "multi_select",
 			"active": false,
 			"values": [
-				{ "title": "?", "value": "?", "checked": false },
 				{ "title": "Low", "value": "low", "checked": false },
 				{ "title": "Med", "value": "medium", "checked": false },
 				{ "title": "High", "value": "high", "checked": false }
@@ -269,7 +267,6 @@
 			"type": "multi_select",
 			"active": false,
 			"values": [
-				{ "title": "?", "value": "?", "checked": false },
 				{ "title": "Low", "value": "low", "checked": false },
 				{ "title": "Med", "value": "medium", "checked": false },
 				{ "title": "High", "value": "high", "checked": false }
@@ -284,7 +281,6 @@
 			"type": "multi_select",
 			"active": false,
 			"values": [
-				{ "title": "?", "value": "?", "checked": false },
 				{ "title": "Low", "value": "low", "checked": false },
 				{ "title": "Med", "value": "medium", "checked": false },
 				{ "title": "High", "value": "high", "checked": false }
