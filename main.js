@@ -1,44 +1,36 @@
 //variables and default settings
- var originalData_nodes, originalData_links, originalData_attribute_groups, mydata,defaultAttrConfig;
+ var originalData_nodes, originalData_links, originalData_attribute_groups, mydata,defaultAttrConfig, similarityCriteria;
  var galleryVis, similarityVis, fM, formM;
  var defaultConfig = {};
 // read data
  Promise.all([
-    d3.json("./data/locomotionvault-13-09-2020-2.json"),//locomotionvault-30-08-2020.json"),
+    d3.json("./data/locomotionvault-15-09-2020.json"),//locomotionvault-30-08-2020.json"),
     d3.json("./data/filterConfig.json")
 	]).then(function(files) { 
 		data = files[0];
 		defaultAttrConfig = files[1];
-		console.log(data);
-		console.log(defaultAttrConfig)
+    similarityCriteria = "dvt"
 
 		originalData_nodes = data.nodes;
 		originalData_links = data.links;
-		// originalData_attribute_groups = d3.nest()
-		// 							      .key(function(d) { return d.parent; })
-		// 							      .entries(defaultAttrConfig);//data.attribute_groups;
 		mydata = data;
-
-		// console.log(originalData_attribute_groups)
 
 		//initialize filtermanger
 		 fM = new FilterManager(defaultAttrConfig, mydata);
-		 formM = new FormManager(defaultAttrConfig,"myform-fields", mydata);
+		 //formM = new FormManager(defaultAttrConfig,"myform-fields", mydata);
 
 		//initialize views
 		 $("#n-methods").text("(" + data.nodes.length + ")");
 		 galleryVis = new Gallery("gallery-vis", mydata, defaultAttrConfig);
 		 similarityVis = new SimilarityVis("similarity-vis", mydata, defaultAttrConfig);
+     updateViews()
 
 	});
 
 
 function filterNodes() {
-  console.log("In filter data");
-  // data = originalData; 
   nodes = originalData_nodes;
   links = originalData_links;
-  // console.log(originalData);
 
   nodes = nodes.filter( function(d) {
     var decision = true;
@@ -58,10 +50,6 @@ function filterNodes() {
                 decision = true;
             break;
     	    default:
-    	    	// console.log("Loop - In filter data "); 
-    	    	// console.log(activeFilter.selectedValues);
-    	    	// console.log(activeFilter.key);
-    	    	// console.log(d[activeFilter.key]);
             	if(!activeFilter.selectedValues.includes(d[activeFilter.key]))
               		decision = false;
     	}
@@ -74,9 +62,7 @@ function filterNodes() {
 
   links = links.filter(function(d){	
   	var decision = true;
-  	// console.log(currNodes)
   	if(!currNodes.includes(d.source) || !currNodes.includes(d.target))
-  		// console.log("in false");
   		decision = false;
   	return decision;
 
@@ -84,7 +70,7 @@ function filterNodes() {
   mydata.nodes = nodes;
   mydata.links = links;
   mydata.attribute_groups = originalData_attribute_groups;
-  console.log(mydata.attribute_groups)
+  // console.log(mydata.attribute_groups)
 }
 
 function filterSimilarity(){
@@ -92,7 +78,9 @@ function filterSimilarity(){
   var simThreshold = $("#similarity-threshold-slider").val();
   links = links.filter(function(d){ 
           var decision = true;
-          if(d.value<simThreshold)
+          if(similarityCriteria=="dvt" && d.value_dvt<simThreshold)
+            decision = false;
+          if(similarityCriteria=="dit" && d.value_dit<simThreshold)
             decision = false;
     return decision;
   });
@@ -131,15 +119,10 @@ $("#filter-controls").on("click", ".filter-button-group .uk-button", function ()
   
   var nOfOptions = $(this).parent().children().length;
   if(nOfOptions == multiSelectValues.length || multiSelectValues.length == 0) {
-    //cM.removeParam(currFilter);
     fM.removeActiveFilter(currFilter);
-    // cM.updateFilterParam();
   } else {
-    //cM.setParam(currFilter, multiSelectValues.join(","));
     fM.addActiveFilter(currFilter, multiSelectValues);
-    // cM.updateFilterParam();
-    //fM.addActiveFilter({ key: currFilter, values: multiSelectValues, valueMatching: customValueMatching });
-  }
+   }
   updateViews();
 });
 
@@ -172,11 +155,11 @@ $("#similarity-threshold-slider").on("change",function(event){
 $("#similarity-threshold-slider").on("click",function(event){
   event.stopPropagation() 
 })
-// $("#new-method-button").click(function(){
-// 	console.log("in click");
-// 	UIkit.modal("#form-modal").show();
-// 	formM.initForm();
-// });
+$(".similarity-radio").on("click",function(event){
+  similarityCriteria = $(this).val()
+  updateViews()
+  event.stopPropagation() 
+})
 
 function getEnabledCheckboxes(parentElement, dataAttribute) {
   var checkboxValues = $(parentElement + " input:checkbox:checked").map(function() {
@@ -201,7 +184,6 @@ function generateMethodToolTip(method){
 }
 
 $("#similarity-container").click(function(){
-  console.log("click is called");
   $("#method-tooltip").html("");
   d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
   d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');
@@ -250,18 +232,4 @@ function resetHoverSimilarityEffects(){
   d3.selectAll(".node-anchored").style('stroke','black').style('stroke-width',2);
   d3.selectAll(".link-anchored").style('stroke','black').style('stroke-opacity',1).style('stroke-width',1.5);
 }
-// $("#form-modal").on('click', ".similarity-textbox input:textbox", function () {
-// 	console.log("in similarity event handler")
-// 	var searchStr = this.value;
-//     if(searchStr.length <= 2) {
-//       // $("#search-results-container").fadeOut();
-//       return;
-//     }
-    
-//     allMethods = manager.data.nodes.map(d => d.id);
-
-//     var results = allMethods.filter(function(d){
-//     	return d.startsWith(searchStr)
-//     });
-//  });
 

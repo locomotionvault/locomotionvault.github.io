@@ -85,11 +85,23 @@ div .tooltip__thumbnail{
 	padding:0px;
 }
 
-.filter-button-group button.active{
+.filter-button-group button.active,#similarity-radio-group .uk-button.active{
 	background: grey;
 	color: white;
 	border-style: solid;
 
+}
+
+#similarity-radio-group{
+	margin:5px;
+	/*font-size: 10px;*/
+	border-width: thin;
+	border-color:grey;
+	padding:0px;
+}
+
+.similarity-criteria .uk-button{
+	font-size:12px;
 }
 
 .uk-grid+.uk-grid{

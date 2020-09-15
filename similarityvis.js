@@ -77,8 +77,6 @@ SimilarityVis.prototype.updateVis = function() {
   var links_enter = vis.my_links.enter().append('path').attr("class","links")
 						.merge(vis.my_links)
 						.attr('d', function (d) {
-                console.log(d.source);
-                console.log(d.target)
 						  	start = vis.x(d.source);
 						  	end = vis.x(d.target) ;
 					  		return ['M', start, vis.settings.nodes.y,'A', (start - end)/2, ',', (start - end)/2, 0, 0,

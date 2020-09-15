@@ -210,7 +210,7 @@ FilterManager.prototype.createFrequencyPlot = function(filterElem, filterGroup, 
                         .thresholds(x.ticks(numTicks)); // then the numbers of bins
 
   var bins = manager.histogram(data);
-  console.log(bins)
+  // console.log(bins)
   var y = d3.scaleLinear()
       .range([manager.settings.contextHeight,0]);
       y.domain([0, d3.max(bins, function(d) { return d.length; })]);   // d3.hist has to be called before the Y axis obviously

@@ -22,22 +22,22 @@
             <div><a id="new-method-button" class="uk-button uk-button-default" href="https://github.com/locomotionvault/locomotionvault.github.io/issues" target="_blank">Submit an error</a></div>
            </div>
          </div>
-        <!--  <div>
-            <button id="new-method-button" class="uk-button uk-button-default">Enter a new method</button>
-         </div> -->
    	</header>
    	<div id="page-container" class="full-viewport uk-grid-collapse" uk-grid>
-   	<!-- <div class="full-viewport uk-grid-collapse" uk-grid uk-height-viewport="offset-top: true"> -->
    		<div id="myvis" class="uk-width-2-3">
             <hr>
             <div id="similarity-container">
               <div class="uk-margin-right" uk-grid>
                 <div class="uk-width-3-4">
                   <div><h2 class="uk-heading-bullet"><span>Similarity</span></h2></div>
+                  <div id="similarity-radio-group" class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                      <label><input class="uk-radio similarity-radio" type="radio" name="sim-radio" value="dvt" checked> Expert Similarity</label>
+                      <label><input class="uk-radio similarity-radio" type="radio" name="sim-radio" value="dit"> Database Similarity</label>
+                  </div>
                   <div uk-grid>
                     <div class="uk-width-auto">Similarity threshold:</div>
-                    <div class="uk-width-expand"><input id="similarity-threshold-slider" class="uk-range" min="1" max="4" value="3" step="1" type="range"></div>
-                    <div class="uk-width-auto"><span id="similarity-threshold-val">3</span></div>
+                    <div class="uk-width-expand"><input id="similarity-threshold-slider" class="uk-range" min="0" max="1" value="0.5" step="0.1" type="range"></div>
+                    <div class="uk-width-auto"><span id="similarity-threshold-val">0.5</span></div>
                   </div>
                 </div>
                 <div id="method-tooltip" class="uk-width-1-4"></div>
@@ -71,18 +71,6 @@
               <p class="uk-text-right">
                   <button class="uk-button uk-button-default uk-modal-close" type="button">Done</button>
               </p>
-          </div>
-      </div>
-
-      <!-- This is the method entry modal -->
-      <div id="form-modal" class="uk-modal-container" bg-close="false" uk-modal>
-          <div class="uk-modal-dialog uk-modal-body">
-               <button class="uk-modal-close-default" type="button" uk-close></button>
-               <div id="form-modal-title" class="uk-modal-title uk-margin-bottom"><span>Enter a new method</span></div>
-              <form id="myform-body">
-                  <fieldset class="uk-fieldset" id="myform-fields"></fieldset>
-                   <div id="form-submit-footer"><button id="submit-button" type="submit" class="uk-button uk-button-primary">Submit</button></div>
-              </form>
           </div>
       </div>
 
