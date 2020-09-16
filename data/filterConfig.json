@@ -25,6 +25,14 @@
 			"display":true
 		},
 		{
+			"key": "citation",
+			"title": "Publication",
+			"parent": "General",
+			"type": "link",
+			"filter":false,
+			"display":true
+		},
+		{
 			"key": "year",
 			"title": "Year",
 			"parent": "General",
@@ -112,8 +120,8 @@
 			"type": "multi_select",
 			"active": false,
 			"values": [
-				{ "title": "Yes", "value": "Y", "checked": false },
-				{ "title": "No", "value": "N", "checked": false }
+				{ "title": "Yes", "value": "yes", "checked": false },
+				{ "title": "No", "value": "no", "checked": false }
 			],
 			"filter":true,
 			"display":true
@@ -169,6 +177,21 @@
 			"active": false,
 			"values": [
 				{ "title": "N/A", "value": "none", "checked": false },
+				{ "title": "Low", "value": "low", "checked": false },
+				{ "title": "Med", "value": "medium", "checked": false },
+				{ "title": "High", "value": "high", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "multitask",
+			"title": "Multitasking",
+			"parent": "Multi-level",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "None", "value": "none", "checked": false },
 				{ "title": "Low", "value": "low", "checked": false },
 				{ "title": "Med", "value": "medium", "checked": false },
 				{ "title": "High", "value": "high", "checked": false }
@@ -235,20 +258,6 @@
 		{
 			"key": "embodiment",
 			"title": "Embodiment",
-			"parent": "Multi-level",
-			"type": "multi_select",
-			"active": false,
-			"values": [
-				{ "title": "Low", "value": "low", "checked": false },
-				{ "title": "Med", "value": "medium", "checked": false },
-				{ "title": "High", "value": "high", "checked": false }
-			],
-			"filter":true,
-			"display":true
-		},
-		{
-			"key": "multitask",
-			"title": "Multitasking",
 			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
