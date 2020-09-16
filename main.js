@@ -4,12 +4,14 @@
  var defaultConfig = {};
 // read data
  Promise.all([
-    d3.json("./data/locomotionvault-15-09-2020.json"),//locomotionvault-30-08-2020.json"),
+    d3.json("./data/locomotionvault-16-09-2020.json"),//locomotionvault-30-08-2020.json"),
     d3.json("./data/filterConfig.json")
 	]).then(function(files) { 
 		data = files[0];
 		defaultAttrConfig = files[1];
     similarityCriteria = "dvt"
+
+    data = calcSimilarity(data);
 
 		originalData_nodes = data.nodes;
 		originalData_links = data.links;
@@ -27,6 +29,27 @@
 
 	});
 
+function calcSimilarity(data){
+  data.nodes.forEach(function(node,index){
+    var similarLTs = ""
+    data.links.forEach(function(link){
+      if (link.source == node.id && link.value_dvt>=0.5){
+        similarLTs += link.target
+        similarLTs += ", "
+      }
+      if (link.target == node.id && link.value_dvt>=0.5){
+        similarLTs += link.source
+        similarLTs += ", "
+      }
+    });
+    if(similarLTs !="")
+      similarLTs = similarLTs.substring(0, similarLTs.length - 2);
+    node["similarity"] = similarLTs;
+   // console.log("similarLTs: "+similarLTs);
+
+  });
+  return data;
+}
 
 function filterNodes() {
   nodes = originalData_nodes;
@@ -183,7 +206,8 @@ function generateMethodToolTip(method){
   return result;
 }
 
-$("#similarity-container").click(function(){
+$("#similarity-vis").click(function(){
+  console.log("clicked ...")
   $("#method-tooltip").html("");
   d3.selectAll(".nodes").style('opacity', 1).style('stroke', 'none');
   d3.selectAll(".links").style('stroke', 'grey').style('stroke-opacity', .7).style('stroke-width', '1');

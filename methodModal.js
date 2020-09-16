@@ -41,7 +41,7 @@ function generateAttributeTable(locomotionData,attribute_groups){
 	  	attributeList.forEach(function(attribute, index){
 	  		attr_title = attribute["title"];
 	  		attr_value = locomotionData[attribute.key]?locomotionData[attribute.key]:"-";
-	  		if(attr_title=="Video")
+	  		if((attr_title=="Video" || attr_title=="citation") && attr_value.includes("http"))
 	  			result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_title+': </span></div><div class="uk-width-3-4"><a href="'+attr_value+'" target="_blank">'+attr_value +'</a></div>';
 	  		else
 	  			result_inner +='<div class="table-attr uk-width-1-4"><span>'+attr_title+': </span></div><div class="uk-width-3-4"><span>'+attr_value +'</span></div>';
