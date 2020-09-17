@@ -287,7 +287,7 @@
 		},
 		{
 			"key": "vection",
-			"title": "Illusion of Motion",
+			"title": "Vection",
 			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
@@ -329,7 +329,7 @@
 		},
 		{
 			"key": "Ease of Learning",
-			"title": "Learnability",
+			"title": "Intuitiveness",
 			"parent": "Multi-level",
 			"type": "multi_select",
 			"active": false,
