@@ -17,6 +17,22 @@
 			"display":true
 		},
 		{
+			"key": "Disambiguation",
+			"title": "Disambiguation",
+			"parent": "General",
+			"type": "textarea",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "state of this entry",
+			"title": "State of this entry",
+			"parent": "General",
+			"type": "textarea",
+			"filter":false,
+			"display":true
+		},
+		{
 			"key": "Video",
 			"title": "Video",
 			"parent": "General",
@@ -29,6 +45,22 @@
 			"title": "Publication",
 			"parent": "General",
 			"type": "link",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "creator",
+			"title": "Creator",
+			"parent": "General",
+			"type": "textarea",
+			"filter":false,
+			"display":true
+		},
+		{
+			"key": "examples",
+			"title": "Examples",
+			"parent": "General",
+			"type": "textarea",
 			"filter":false,
 			"display":true
 		},
@@ -116,6 +148,32 @@
 		{
 			"key": "presence",
 			"title": "Breaks Presence",
+			"parent": "Binary",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Yes", "value": "yes", "checked": false },
+				{ "title": "No", "value": "no", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "beyond ground",
+			"title": "Beyond Ground",
+			"parent": "Binary",
+			"type": "multi_select",
+			"active": false,
+			"values": [
+				{ "title": "Yes", "value": "yes", "checked": false },
+				{ "title": "No", "value": "no", "checked": false }
+			],
+			"filter":true,
+			"display":true
+		},
+		{
+			"key": "videogamer",
+			"title": "Video Gamer",
 			"parent": "Binary",
 			"type": "multi_select",
 			"active": false,
