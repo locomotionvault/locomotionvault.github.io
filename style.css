@@ -24,6 +24,10 @@ h2, h3, h4{
 	padding-left: 15px;
 }
 
+#new-method-button,#github-issues{
+ font-size: 12px;
+}
+
 div #gallery-vis,div #similarity-vis{
 /*	border-style: solid;
 	border-color:lightgrey;*/
@@ -238,6 +242,27 @@ div .input-title{
     content: "";
     display: none;
 }
+
+
+/*** workshop pages styles***/
+div #workshop-title-div{
+	margin-top:15px;
+	margin-left:50%;
+	/*align-content: center;*/
+}
+
+h1 .workshop-title{
+	margin-top:15px;
+	margin-bottom: -10px;
+}
+
+div .teaser{
+	margin-bottom: 15px;
+}
+/*.uk-grid .organizer{
+	margin-bottom:50px;
+}*/
+/******/
 /*
 .noUi-horizontal .noUi-origin{
 	transform: translate(-960%, 0px);!imporant
