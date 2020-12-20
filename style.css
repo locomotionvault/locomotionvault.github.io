@@ -24,6 +24,10 @@ h2, h3, h4{
 	padding-left: 15px;
 }
 
+h3 .workshop{
+	padding-left: 0px;
+}
+
 #new-method-button,#github-issues{
  font-size: 12px;
 }
@@ -234,6 +238,7 @@ div .input-title{
 	top:-2px;
 }
 
+
 /*.noUi-handle-lower{
 	right:-8px;
 }*/
@@ -251,14 +256,44 @@ div #workshop-title-div{
 	/*align-content: center;*/
 }
 
-h1 .workshop-title{
+div .workshop-title{
+	font-size: 2.2rem;
+	color:black;
+}
+
+div .workshop-subtitle{
+	font-size: 1.4rem;
+	color:grey;
+	margin-bottom: 30px
+}
+
+div .workshop-subsection{
+	font-size: 1.3rem;
+    line-height: 1.4;
+    color:black;
+    margin-bottom: 0px;
+}
+
+/*h1 .workshop-title{
 	margin-top:15px;
 	margin-bottom: -10px;
-}
+}*/
 
 div .teaser{
 	margin-bottom: 15px;
 }
+div .organizers{
+	margin-top: 20px;
+}
+
+div .footer-area{
+	margin-top: 30px;
+}
+/**+h4{
+    margin-top: 5px;
+    color:grey;
+    margin-left:0px;
+}*/
 /*.uk-grid .organizer{
 	margin-bottom:50px;
 }*/
