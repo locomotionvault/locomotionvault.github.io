@@ -4,7 +4,7 @@
  var defaultConfig = {};
 // read data
  Promise.all([
-    d3.json("./data/locomotionvault-17-09-2020.json"),//locomotionvault-30-08-2020.json"),
+    d3.json("./data/locomotionvault-dataset.json"),//locomotionvault-30-08-2020.json"),
     d3.json("./data/filterConfig.json")
 	]).then(function(files) { 
 		data = files[0];
