@@ -249,7 +249,7 @@
 			"type": "multi_select",
 			"active": false,
 			"values": [
-				{ "title": "None", "value": "none", "checked": false },
+				{ "title": "N/A", "value": "none", "checked": false },
 				{ "title": "Low", "value": "low", "checked": false },
 				{ "title": "Med", "value": "medium", "checked": false },
 				{ "title": "High", "value": "high", "checked": false }
