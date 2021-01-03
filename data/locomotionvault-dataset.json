@@ -102,7 +102,7 @@
         {
             "figure": "4.gif", 
             "creator": "(broken) Http://electricnightowl.com/ ", 
-            "energy": "gym", 
+            "energy": "high", 
             "citation": "McCullough M., Xu H., Michelson J., Jackoski M., Pease W., Cobb W., Kalescky W., Ladd J., Williams B.,\n2015. Myo Arm: Swinging to Explore a VE. Proceedings of the ACM SIGGRAPH Symposium on\nApplied Perception, 107\u2013113. doi:10.1145/2804408.2804416", 
             "accessibility": "low", 
             "hardware": "controller tracking", 
@@ -300,7 +300,7 @@
         {
             "figure": "10.gif", 
             "creator": "crytek", 
-            "energy": "gym", 
+            "energy": "high", 
             "citation": "Slater, Mel, Martin Usoh, and Anthony Steed. \"Taking steps: the influence of a walking technique on presence in virtual reality.\" ACM Transactions on Computer-Human Interaction (TOCHI) 2.3 (1995): 201-219.", 
             "accessibility": "low", 
             "hardware": "controller tracking", 
@@ -366,7 +366,7 @@
         {
             "figure": "12.gif", 
             "creator": "", 
-            "energy": "gym", 
+            "energy": "high", 
             "citation": "H. Distler and H.H. B\u00fclthoff, \u201cPsychophysical Experiments and Virtual Environments,\u201d Virtual Reality World 96,Computerwoche\nVerlag AG, M\u00fcnchen, Germany, 1996.", 
             "accessibility": "low", 
             "hardware": "pedals", 
@@ -597,7 +597,7 @@
         {
             "figure": "20.gif", 
             "creator": "", 
-            "energy": "gym", 
+            "energy": "high", 
             "citation": "", 
             "accessibility": "low", 
             "hardware": "controller tracking", 
@@ -1224,7 +1224,7 @@
         {
             "figure": "39.gif", 
             "creator": "", 
-            "energy": "gym", 
+            "energy": "high", 
             "citation": "", 
             "accessibility": "low", 
             "hardware": "head tracking", 
@@ -1232,7 +1232,7 @@
             "spatial awareness": "high", 
             "year": 2020.0, 
             "speed": "low", 
-            "multitask": "minimal", 
+            "multitask": "low", 
             "Ease of Learning": "high", 
             "vection": "high", 
             "group": "movement", 
@@ -1818,7 +1818,7 @@
         {
             "figure": "59.gif", 
             "creator": "", 
-            "energy": "gym", 
+            "energy": "high", 
             "citation": "", 
             "accessibility": "low", 
             "hardware": "controller tracking", 
