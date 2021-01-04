@@ -588,7 +588,7 @@
             "videogamer": "no", 
             "nausea": "high", 
             "largeVE": "medium", 
-            "dof": "3.2", 
+            "dof": "3", 
             "magical": "yes", 
             "Video": "https://twitter.com/pushmatrix/status/1227302127862734849", 
             "Disambiguation": "", 
@@ -621,7 +621,7 @@
             "videogamer": "no", 
             "nausea": "medium", 
             "largeVE": "medium", 
-            "dof": "2.4", 
+            "dof": "4", 
             "magical": "no", 
             "Video": "https://www.youtube.com/watch?v=yKftPtjrdSs", 
             "Disambiguation": "", 
@@ -1205,17 +1205,17 @@
             "group": "teleportation", 
             "state of this entry": "good", 
             "presence": "yes", 
-            "id": "minimapminim", 
+            "id": "minimap", 
             "posture": "any", 
             "direction": "fixed", 
             "description": "Pull up an ingame minimap with controllers and select a location on the map to teleport there. There may likely be predetermined locations on the map one can teleport to and you need simply select one.", 
             "embodiment": "low", 
             "number": 38.0, 
-            "granularity": "Low to None", 
+            "granularity": "low", 
             "videogamer": "", 
             "nausea": "low", 
             "largeVE": "high", 
-            "dof": "2.3", 
+            "dof": "3", 
             "magical": "yes", 
             "Video": "https://www.youtube.com/watch?v=xqIz0lPPbPA", 
             "Disambiguation": "", 
@@ -1508,7 +1508,7 @@
             "description": "The player has the ability to project or attach two portals on world surfaces and move between them when crossing one. The player is able to perform other movements using other methods (e.g. 1:1, teleportation, slide)", 
             "embodiment": "medium", 
             "number": 47.0, 
-            "granularity": "Low", 
+            "granularity": "low", 
             "videogamer": "", 
             "nausea": "low", 
             "largeVE": "high", 
@@ -3511,7 +3511,7 @@
             "speed": "low", 
             "multitask": "none", 
             "Ease of Learning": "high", 
-            "vection": "hgh", 
+            "vection": "high", 
             "group": "grab", 
             "state of this entry": "preliminary", 
             "presence": "no", 
@@ -7224,193 +7224,193 @@
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Left Hand Right Hand", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.6, 
             "target": "Third Person Teleport", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.5, 
             "target": "Architectural Portals", 
             "value_dvt": 0.6
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Arm Swinger", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.5, 
             "target": "Astral Body", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Bobbing-Walking", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Charge Float Jump", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.5, 
             "target": "Teleport", 
             "value_dvt": 0.30000000000000004
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Climbing", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.5, 
             "target": "Cloudstep", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Cycling", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Robot Tiles", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Driving", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.4, 
             "target": "Control Theater", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "EVA Thrusters", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.6, 
             "target": "Fading - Cinematic Blink", 
             "value_dvt": 0.30000000000000004
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Finger Run", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Flying", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Flying Carpet", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Focal Point VR", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.4, 
             "target": "Freedom Locomotion ", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Grappling Hook", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Stepping Stone", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Hand Close", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Hand Rockets", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "Hand Walking", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Nodding Acceleration", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.4, 
             "target": "Holosphere", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.5, 
             "target": "Impossible Portals", 
             "value_dvt": 0.6
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.19999999999999996, 
             "target": "3D Rudder", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.30000000000000004, 
             "target": "Joyman", 
             "value_dvt": 0.0
         }, 
         {
-            "source": "minimapminim", 
+            "source": "minimap", 
             "value_dit": 0.4, 
             "target": "Dash Forward", 
             "value_dvt": 0.0
@@ -7628,7 +7628,7 @@
         {
             "source": "Jump VR", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -7850,7 +7850,7 @@
         {
             "source": "Lean to Move", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -8072,7 +8072,7 @@
         {
             "source": "Local Area", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -8306,7 +8306,7 @@
         {
             "source": "World in Miniature", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -8546,7 +8546,7 @@
         {
             "source": "Ninja Run VR", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -8774,7 +8774,7 @@
         {
             "source": "Omnidirectional Elevator", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -8996,7 +8996,7 @@
         {
             "source": "Passive Move", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -9248,7 +9248,7 @@
         {
             "source": "PocketStrafe", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -9470,7 +9470,7 @@
         {
             "source": "Projected Portal", 
             "value_dit": 0.5, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.5
         }, 
         {
@@ -9986,7 +9986,7 @@
         {
             "source": "RIPMotion", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -10250,7 +10250,7 @@
         {
             "source": "Room-scale Vehicle", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -10784,7 +10784,7 @@
         {
             "source": "Running on Rails", 
             "value_dit": 0.5, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -11084,7 +11084,7 @@
         {
             "source": "Skier", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -11366,7 +11366,7 @@
         {
             "source": "Snap N'Motion", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -11660,7 +11660,7 @@
         {
             "source": "Snap Turn", 
             "value_dit": 0.7, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -11978,7 +11978,7 @@
         {
             "source": "Superman Flight", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -12626,7 +12626,7 @@
         {
             "source": "Telepath", 
             "value_dit": 0.5, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -12920,7 +12920,7 @@
         {
             "source": "Teleport Presets", 
             "value_dit": 0.6, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.30000000000000004
         }, 
         {
@@ -13250,7 +13250,7 @@
         {
             "source": "Teleport preview", 
             "value_dit": 0.7, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -13598,7 +13598,7 @@
         {
             "source": "Teleport Reorient", 
             "value_dit": 0.6, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -13952,7 +13952,7 @@
         {
             "source": "Teleport Cooldown", 
             "value_dit": 0.8, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -14312,7 +14312,7 @@
         {
             "source": "Teleport Throw", 
             "value_dit": 0.5, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -14672,7 +14672,7 @@
         {
             "source": "Teleport Walk", 
             "value_dit": 0.6, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -15038,7 +15038,7 @@
         {
             "source": "Short Teleport", 
             "value_dit": 0.6, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -15410,7 +15410,7 @@
         {
             "source": "Spycam Teleport", 
             "value_dit": 0.6, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -15788,7 +15788,7 @@
         {
             "source": "Third Person", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -16178,7 +16178,7 @@
         {
             "source": "Treading", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -16574,7 +16574,7 @@
         {
             "source": "Tunneling", 
             "value_dit": 0.5, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -16976,7 +16976,7 @@
         {
             "source": "Turning + Dashing Teleport", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -17384,7 +17384,7 @@
         {
             "source": "TV Screen", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -17780,7 +17780,7 @@
         {
             "source": "Unconstrained Teleport", 
             "value_dit": 0.8, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.30000000000000004
         }, 
         {
@@ -18200,7 +18200,7 @@
         {
             "source": "Vehicle VR", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -18620,7 +18620,7 @@
         {
             "source": "Flying Vehicle", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -19046,7 +19046,7 @@
         {
             "source": "Virtual Turntable", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -19484,7 +19484,7 @@
         {
             "source": "Volume Blink", 
             "value_dit": 0.7, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -20342,7 +20342,7 @@
         {
             "source": "Walk in Place", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -20792,7 +20792,7 @@
         {
             "source": "Walkabout", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -21236,7 +21236,7 @@
         {
             "source": "World Rotator", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -21686,7 +21686,7 @@
         {
             "source": "Seven League Boots", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -22148,7 +22148,7 @@
         {
             "source": "Ground-Level Scaling", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -22622,7 +22622,7 @@
         {
             "source": "NaviFields", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -23552,7 +23552,7 @@
         {
             "source": "Omnidirectional Treadmill", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -24032,7 +24032,7 @@
         {
             "source": "Treadport", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -24536,7 +24536,7 @@
         {
             "source": "Pedaling", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -25046,7 +25046,7 @@
         {
             "source": "Stepper", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -25556,7 +25556,7 @@
         {
             "source": "FlexPerch", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -26078,7 +26078,7 @@
         {
             "source": "3D mouse", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -26588,7 +26588,7 @@
         {
             "source": "Moving Platforms", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -27116,7 +27116,7 @@
         {
             "source": "Rowing", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -27638,7 +27638,7 @@
         {
             "source": "Paddling", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -28184,7 +28184,7 @@
         {
             "source": "Natural Locomotion", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -28724,7 +28724,7 @@
         {
             "source": "Gravity Swell", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -29258,7 +29258,7 @@
         {
             "source": "Haptic Feedback", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -29810,7 +29810,7 @@
         {
             "source": "Head Bowling", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -30368,7 +30368,7 @@
         {
             "source": "Dash Joystick", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -30932,7 +30932,7 @@
         {
             "source": "Walking Stick", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -31502,7 +31502,7 @@
         {
             "source": "Dash Pointing", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -32090,7 +32090,7 @@
         {
             "source": "Hamster Ball", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -32684,7 +32684,7 @@
         {
             "source": "Sliding Looking", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -33284,7 +33284,7 @@
         {
             "source": "Redirected Portal", 
             "value_dit": 0.9, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -33890,7 +33890,7 @@
         {
             "source": "Sliding Joystick", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -34502,7 +34502,7 @@
         {
             "source": "LazyNav", 
             "value_dit": 0.30000000000000004, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -35108,7 +35108,7 @@
         {
             "source": "Sliding Pointing", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -36272,7 +36272,7 @@
         {
             "source": "Grab and Pull", 
             "value_dit": 0.19999999999999996, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -36902,7 +36902,7 @@
         {
             "source": "Indirect wheelchair", 
             "value_dit": 0.9, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
@@ -37544,7 +37544,7 @@
         {
             "source": "Locomotion chair/cushion", 
             "value_dit": 0.4, 
-            "target": "minimapminim", 
+            "target": "minimap", 
             "value_dvt": 0.0
         }, 
         {
