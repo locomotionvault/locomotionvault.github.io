@@ -913,10 +913,10 @@
             "nausea": "low? / medium? (SE)"
         }, 
         {
-            "direction": "gaze", 
+            "direction": "device", 
             "vection": "high", 
             "embodiment": "high", 
-            "description": "Put hands at your hips, press a button on each controller and run in place to move", 
+            "description": "Put a controller inside the belt to track hip direction, press button on other controller and run in place to move towards the hip direction. Alternatively, put hands at the hips, press a button on each controller and run in place to move in the direction between the position of the controllers", 
             "figure": "", 
             "similarity": "PocketStrafe,Walk in Place", 
             "energy": "high", 
