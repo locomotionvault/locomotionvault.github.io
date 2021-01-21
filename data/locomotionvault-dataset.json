@@ -53,7 +53,7 @@
             "id": "Third Person Teleport", 
             "posture": "any", 
             "direction": "device", 
-            "description": "Moving the joystick locks the viewpoint and detaches the user's avatar which can be moved around to perform actions. The 3rd view avatar can move away from the user. With the press of a button the user is teleported to where the avatar is.", 
+            "description": "Moving the joystick locks the viewpoint and detaches the user's avatar which can be moved around to perform actions. The third view avatar can move away from the user. With the press of a button the user is teleported to where the avatar is.", 
             "embodiment": "low", 
             "number": 2.0, 
             "granularity": "medium", 
