@@ -29,7 +29,7 @@ h3 .workshop{
 }
 
 #new-method-button,#github-issues{
- font-size: 12px;
+ font-size: 10px;
 }
 
 div #gallery-vis,div #similarity-vis{
@@ -78,6 +78,20 @@ div .tooltip__card{
 div .tooltip__thumbnail{
 	height:130px;
 }
+
+div #citation{
+	color: white;
+	font-size: 11px;
+}
+
+div #myleftmenu{
+	background-color: #543984;
+
+}
+
+/*div #aboutcontent{
+  padding: 10px 20px 10px 20px;
+}*/
 
 .filter-checkbox-label{
 	font-size: 12px;
