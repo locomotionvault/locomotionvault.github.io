@@ -142,6 +142,13 @@ img{
  } /* remove extra space below image */
 
 
+img .event{
+  width: 180px;
+  overflow-y: hidden;
+  display: block;
+ } /* remove extra space below image */
+
+
 div .gallery-item{
 	height:150px;
 	/*border-style: solid;*/
